@@ -1,0 +1,24 @@
+---
+layout: doc
+layoutClass: m-nav-layout
+sidebar: false
+prev: false
+next: false
+outline: [2, 3, 4]
+---
+<!-- 调用css -->
+<style src="../.vitepress/theme/style/nav.scss"></style>
+<!-- 调用数据文件 -->
+<script setup>
+import { NAV_DATA } from '../.vitepress/theme/untils/data'
+</script>
+
+
+# 导航
+
+::: info 说明
+如果你也想搭建此导航 [点我查看教程](./step.md)
+:::
+
+<MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
+
