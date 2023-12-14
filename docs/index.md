@@ -21,7 +21,7 @@ layout: home
 
 hero:
   name: 三二一
-  text: "viwb"
+  text: "wbvi"
   tagline: 路漫漫其修道远，吾将上下而求索
   image:
     src: /logo.png
@@ -46,7 +46,7 @@ hero:
       link: /nav/softlnk/
     - theme: sponsor
       text: 工作导航
-      link: /nav/worklnk/            
+      link: /nav/worklnk/  
 # features:
 #   - icon: 
 #       dark: /vitepress.png
@@ -69,10 +69,7 @@ hero:
 #     details: 即时服务器启动，闪电般快速的热更新，并利用 Vite 生态插件。
 #     link: https://vitejs.cn/
 #     linkText: Vite
-
-
 ---
-
 <style>
 :root {
 /*标题渐变色*/

@@ -46,6 +46,10 @@ https://wbvi.github.io/
 
 # 安装
 
+```
+ git clone git@github.com:wbvi/wbvi.github.io.git
+```
+
 1. 首先需要本地安装Node.js，需要16版本及以上。
 2. 推荐使用pnpm，命令行安装npm install -g pnpm。
 3. 创建工程，安装VitePress。首先创建文件夹，并打开命令行。
