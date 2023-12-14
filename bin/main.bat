@@ -1,4 +1,5 @@
 @REM .\bin\main.bat
+@REM .\bin\dh-pages.bat
 
 git init
 git add -A

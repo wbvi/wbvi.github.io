@@ -1,3 +1,6 @@
+@REM .\bin\main.bat
+@REM .\bin\dh-pages.bat
+
 call pnpm docs:build
 cd docs/.vitepress/dist
 
