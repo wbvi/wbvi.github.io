@@ -11,4 +11,4 @@ git init
 git add -A
 git commit -m "auto construct dh-pages"
 @REM 上传到分支dh-pages
-git push -f https://github.com/wbvi/wbvi.github.io master:dh-pages
+git push -f https://github.com/wbvi/wbvi.github.io master:gh-pages

@@ -46,8 +46,18 @@ https://wbvi.github.io/
 
 # 安装
 
+## 快速上手
+
+* 拉取项目
+
 ```
  git clone git@github.com:wbvi/wbvi.github.io.git
+```
+
+* 安装依赖
+
+```
+pnpm install
 ```
 
 1. 首先需要本地安装Node.js，需要16版本及以上。
@@ -120,6 +130,14 @@ wbvi.github.io
 
 https://blog.csdn.net/sinat_16643223/article/details/111713296
 
-# vitpress 参考链接
+# 参考链接
 
-https://zhuanlan.zhihu.com/p/631088671
+* vitepree
+
+[vitepress中文教程](https://vitepress.docschina.org/)
+
+* vitepree网上文章
+
+[VuePress + github pages + Travis CI 教程](https://www.jianshu.com/p/a7435b8bc8bc)
+
+[十分钟使用vitepress+github action+gitee pages 搭建你的专属文档](https://zhuanlan.zhihu.com/p/663023274 "知乎")

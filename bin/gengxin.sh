@@ -31,3 +31,5 @@ git push -f git@github.com:wbvi/wbvi.github.io.git master:dh-pages
 # git add .
 # git cm -m 'update'
 # git push
+
+cd -
