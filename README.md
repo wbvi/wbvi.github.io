@@ -42,8 +42,6 @@ https://vitepress.yiov.top/
 
 https://wbvi.github.io/
 
-
-
 # 安装
 
 1. 首先需要本地安装Node.js，需要16版本及以上。
@@ -59,7 +57,6 @@ pnpm add -D vitepress
 pnpm exec vitepress init
 ```
 
-
 **初始化vitepress时的注意事项**
 
 * 初始化时会要求填入配置目录位置，填入./docs
@@ -69,7 +66,6 @@ pnpm exec vitepress init
 * 要加入VitePress npm scripts到package.json中
 
 初始化之后再查看package.json，发现scripts中有了几条命令，这里说明下使用方法：
-
 
 ```powershell
 # 安装依赖
@@ -82,7 +78,6 @@ pnpm docs:build
 pnpm docs:preview
 ```
 
-
 启动开发模式，把命令行中出现的网址复制到浏览器中，即可预览效果。
 
 ### 工程结构
@@ -90,22 +85,22 @@ pnpm docs:preview
 为了方便参考，这里列出我博客的工程目录。
 
 ```todotxt
-jzplp.github.io
+wbvi.github.io
 ├─.github           # github配置
 │  └─workflows      # 自动构建部署配置
 ├─bin               # 执行脚本
 ├─components        # vue组件
-├─docs              # 博客内容
+├─docs              # 文档内容
 │   ├─.vitepress  
 │   │  ├─config.ts  # vitepress配置
 │   │  ├─cache      # 缓存文件，可忽略提交
 │   │  ├─dist       # 构建包，可忽略提交
 │   │  └─theme      # 样式和主题
-│   ├─index.md      # 博客首页
+│   ├─index.md      # 网站首页
 │   ├─2023          # 按照年份存放博文
 │   ├─2022
 │   ├─...           # 更多博客目录
-│   └─public        # 博客使用的静态资源
+│   └─public        # 网站使用的静态资源
 ├─node_modules      # 依赖目录，可忽略提交
 ├─.gitignore        # git提交忽略配置
 ├─package.json      # node.js配置
@@ -113,16 +108,11 @@ jzplp.github.io
 └─README.md         # 工程说明
 ```
 
-
 # git方法
 
 ### 手把手教你在VSCode中使用Git
 
 https://blog.csdn.net/sinat_16643223/article/details/111713296
-
-
-
-
 
 # vitpress 参考链接
 
