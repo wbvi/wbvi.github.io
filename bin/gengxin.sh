@@ -4,7 +4,7 @@
 set -e
 
 
-# cd ../../../
+# 提交所有代码到github
 git add .
 git commit -m "update"
 git push

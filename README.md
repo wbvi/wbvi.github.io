@@ -43,8 +43,87 @@ https://vitepress.yiov.top/
 https://wbvi.github.io/
 
 
+
+# 安装
+
+1. 首先需要本地安装Node.js，需要16版本及以上。
+2. 推荐使用pnpm，命令行安装npm install -g pnpm。
+3. 创建工程，安装VitePress。首先创建文件夹，并打开命令行。
+
+```shell
+# 初始化node工程
+pnpm init
+# 安装vitepress
+pnpm add -D vitepress
+# 初始化vitepress
+pnpm exec vitepress init
+```
+
+
+**初始化vitepress时的注意事项**
+
+* 初始化时会要求填入配置目录位置，填入./docs
+* 选择主题时，推荐采用默认主题
+* 如果不后续希望改动主题，选择Default Theme。
+* 如果希望后续修改主题，选择Default Theme + Customization
+* 要加入VitePress npm scripts到package.json中
+
+初始化之后再查看package.json，发现scripts中有了几条命令，这里说明下使用方法：
+
+
+```powershell
+# 安装依赖
+pnpm install
+# 开发模式启动
+pnpm docs:dev
+# 手动构建
+pnpm docs:build
+# 预览构建成果
+pnpm docs:preview
+```
+
+
+启动开发模式，把命令行中出现的网址复制到浏览器中，即可预览效果。
+
+### 工程结构
+
+为了方便参考，这里列出我博客的工程目录。
+
+```todotxt
+jzplp.github.io
+├─.github           # github配置
+│  └─workflows      # 自动构建部署配置
+├─bin               # 执行脚本
+├─components        # vue组件
+├─docs              # 博客内容
+│   ├─.vitepress  
+│   │  ├─config.ts  # vitepress配置
+│   │  ├─cache      # 缓存文件，可忽略提交
+│   │  ├─dist       # 构建包，可忽略提交
+│   │  └─theme      # 样式和主题
+│   ├─index.md      # 博客首页
+│   ├─2023          # 按照年份存放博文
+│   ├─2022
+│   ├─...           # 更多博客目录
+│   └─public        # 博客使用的静态资源
+├─node_modules      # 依赖目录，可忽略提交
+├─.gitignore        # git提交忽略配置
+├─package.json      # node.js配置
+├─pnpm-lock.yaml    # 依赖的锁定版本号
+└─README.md         # 工程说明
+```
+
+
 # git方法
 
 ### 手把手教你在VSCode中使用Git
 
 https://blog.csdn.net/sinat_16643223/article/details/111713296
+
+
+
+
+
+# vitpress 参考链接
+
+https://zhuanlan.zhihu.com/p/631088671
