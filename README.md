@@ -126,7 +126,6 @@ wbvi.github.io
 
 # 配置
 
-
 # git方法
 
 ### 手把手教你在VSCode中使用Git
@@ -138,6 +137,9 @@ https://blog.csdn.net/sinat_16643223/article/details/111713296
 * vitepree
 
 [vitepress中文教程](https://vitepress.docschina.org/)
+
+* vitepress主题
+  [主题1](https://github.com/Charles7c/charles7c.github.io)
 
 * vitepree网上文章
 
