@@ -58,10 +58,8 @@ git push -f origin master
 
 
 #github
-
 git config --global user.name "wbvi"
 git config --global user.email "wb_enduo@126.com"
-
 
 #gitee
 # git config --global user.name "wb"
