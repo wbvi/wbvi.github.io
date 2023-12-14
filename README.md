@@ -1,6 +1,8 @@
 本站网址：https://wbvi.github.io
 
-# VitePress搭建
+# 指南
+
+VitePress搭建
 
 ###### 什么是 VitePress？
 
@@ -43,8 +45,6 @@ Vite 很好地解决了这些问题：几乎立即启动服务器，只按需编
 https://vitepress.yiov.top/
 
 https://wbvi.github.io/
-
-# 安装
 
 ## 快速上手
 
@@ -123,6 +123,9 @@ wbvi.github.io
 ├─pnpm-lock.yaml    # 依赖的锁定版本号
 └─README.md         # 工程说明
 ```
+
+# 配置
+
 
 # git方法
 
