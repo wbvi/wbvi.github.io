@@ -1,4 +1,6 @@
 ---
+
+
 ---
 # vitepress
 
@@ -7,8 +9,8 @@
 - 好插件：[自动侧边栏](https://github.com/QC2168/vite-plugin-vitepress-auto-sidebar)、[导航](https://github.com/maomao1996/vitepress-nav-template)、
 - 本主题：[中文教程](https://vitepress.yiov.top/)
 
+# # vite
 
-#
 茂茂大神导航
 https://github.com/maomao1996/vitepress-nav-template
 
