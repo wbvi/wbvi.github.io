@@ -83,6 +83,8 @@ export const nav: DefaultTheme.Config['nav'] = [
         items: [
             { text: 'gitee', link: 'https://gitee.com/' },
             { text: 'github', link: 'https://github.com/' },
+            { text: 'github本站', link: 'https://github.com/wbvi/wbvi.github.io' },
+            { text: 'gitee本站', link: 'https://gitee.com/' },
         ],
     },
 
