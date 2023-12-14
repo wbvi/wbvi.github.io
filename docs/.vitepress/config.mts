@@ -5,6 +5,10 @@ import { nav, sidebar } from './configs'
 import timeline from "vitepress-markdown-timeline";
 
 export default defineConfig({
+    // base: '/', //网站部署到github的vitepress这个仓库里
+  // base: '/wbvi/', //网站部署到gitee的wbvi仓库里
+  // base: '/wbvi.github.io/', //网站部署到github的wbvi.github.io仓库里
+  
   lang: 'zh-CN',
   title: "三二一",
   description: "文档和工具",
@@ -16,9 +20,6 @@ export default defineConfig({
   ],
   // #endregion fav
 
-  // base: '/', //网站部署到github的vitepress这个仓库里
-  // base: '/wbvi/', //网站部署到gitee的wbvi仓库里
-  base: '/wbvi.github.io/', //网站部署到github的wbvi.github.io仓库里
   //cleanUrls:true, //开启纯净链接无html
 
   //启用深色模式
