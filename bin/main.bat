@@ -1,3 +1,5 @@
+@REM .\bin\main.bat
+
 git init
 git add -A
 git commit -m "auto construct main"
