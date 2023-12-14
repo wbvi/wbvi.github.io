@@ -16,7 +16,7 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
-    "pull": "sh ./bin/autopull.bat",
-    "gengxin": "sh ./bin/gengxin.sh"
+    "pull": "powershell bin/autopull.bat",
+    "gengxin": "bash ./bin/gengxin.sh"
   }
 }

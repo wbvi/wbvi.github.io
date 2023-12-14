@@ -1,3 +1,5 @@
+本站网址：https://wbvi.github.io
+
 # VitePress搭建
 
 ###### 什么是 VitePress？
