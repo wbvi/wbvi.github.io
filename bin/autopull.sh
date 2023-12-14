@@ -7,8 +7,7 @@ set -e
 git init
 git add -A
 git commit -m "auto construct main"
-@REM 更新到主仓库
-git push -f https://github.com/wbvi/wbvi.github.io 
+git push -f https://github.com/wbvi/wbvi.github.io
 
 # 上传分支ph-pages
 # 生成静态文件
@@ -22,6 +21,13 @@ cd ./docs/.vitepress/dist
 git init
 git add -A
 git commit -m 'auto-dh-pages'
+git push -f https://github.com/wbvi/wbvi.github.io master:dh-pages
+
+
+
+
+
+
 # const msg = "gitee actions 自动部署"
 # git commit -m "${msg}"
 
@@ -31,10 +37,10 @@ git commit -m 'auto-dh-pages'
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
-#gitee
-git remote add origin https://gitee.com/viwb/viwb.git
-#强制推送
-git push -f origin master
+# #gitee
+# git remote add origin https://gitee.com/viwb/viwb.git
+# #强制推送
+# git push -f origin master
 #强制推送分支
 #git push -f origin master:gh-pages
 
@@ -49,20 +55,20 @@ rm -rf ./docs/.vitepress/dist
 # 是否关闭命令行窗口
 exec /bin/bash
 
-#一次复制上传
+# #一次复制上传
 
-pnpm docs:build
-cd ./docs/.vitepress/dist
-git init
-git add -A
-git commit -m 'deploy'
-git remote add origin https://gitee.com/viwb/viwb.git
-git push -f origin master
+# pnpm docs:build
+# cd ./docs/.vitepress/dist
+# git init
+# git add -A
+# git commit -m 'deploy'
+# git remote add origin https://gitee.com/viwb/viwb.git
+# git push -f origin master
 
 
 #github
-git config --global user.name "wbvi"
-git config --global user.email "wb_enduo@126.com"
+# git config --global user.name "wbvi"
+# git config --global user.email "wb_enduo@126.com"
 
 #gitee
 # git config --global user.name "wb"
