@@ -17,6 +17,7 @@
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
     "win": "powershell bin/autoDeploy.bat",
+    "main": "powershell bin/main.bat",
     "gengxin": "bash ./bin/gengxin.sh"
   }
 }
