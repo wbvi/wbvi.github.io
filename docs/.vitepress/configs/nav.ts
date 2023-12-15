@@ -71,7 +71,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     // 
     { text: '工作', link: '/work/' },
     // 
-    { text: '工具', link: '/tools/' },
+    { text: '软件', link: '/tools/' },
     // 其他
     { text: '其他', link: '/other/' },
     // 
