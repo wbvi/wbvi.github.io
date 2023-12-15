@@ -1,5 +1,5 @@
 ---
-hello: world
+layout: false
 ---
 
 <script setup>

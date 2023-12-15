@@ -6,7 +6,9 @@
 
 `本地项目地址：http://localhost:5173/`
 
-# 介绍
+# 指南
+
+[配置](./vitepress/site-config.md)
 
 ## 前言
 
@@ -14,16 +16,12 @@
 
 [VitePress](https://vitepress.dev/) 使用 Markdown 编写的源内容，生成可以轻松部署在任何地方的静态 HTML 页面，VitePress 作为 [VuePress](https://v2.vuepress.vuejs.org/zh/) 的孪生兄弟，借助 [Vue 3](https://cn.vuejs.org/) 和 [vite](https://vitejs.cn/)，VitePress 提供了明显更好的 DX、更好的生产性能、更精致的默认主题以及更灵活的定制 API
 
-## 官方
+### 官方
 
 它是搭建文档的 静态站点生成器(SSG) 最佳利器之一
 
 * VitePress官网：[https://vitepress.dev/](https://vitepress.dev/)
 * vite中文网：[https://vitejs.cn/](https://vitejs.cn/)
-
-# 基础配置
-
-VitePress搭建
 
 ## 快速上手
 
@@ -52,7 +50,7 @@ pnpm exec vitepress init
 
 初始化之后再查看package.json，发现scripts中有了几条命令，这里说明下使用方法：
 
-```powershell
+```shell
 # 安装依赖
 pnpm install
 # 开发模式启动
@@ -69,17 +67,17 @@ pnpm docs:preview
 
 * 拉取项目
 
-```
+```shell
  git clone git@github.com:wbvi/wbvi.github.io.git
 ```
 
 * 安装依赖
 
-```
+```shell
 pnpm install
 ```
 
-### 工程结构
+## 路由
 
 为了方便参考，这里列出我博客的工程目录。
 
@@ -107,10 +105,121 @@ wbvi.github.io
 └─README.md         # 工程说明
 ```
 
+## 部署
+
+## 写作
+
+### Markdown 扩展
+
+[写法](./markdown.md)
+
+### Frontmatter
+
+```yaml
+# layout: home
+# navbar: false # 导航栏关闭
+sidebar: false # 侧边栏关闭
+# aside: left # 大纲默认右侧
+# aside: false # 大纲关闭
+# 设置到六级标题可以用 'deep' ，关闭 false,此设置与 页面中的大纲 设置相同，会覆盖！
+#outline: [2,3]
+# lastUpdated: false # 上次更新，默认开启，不想显示可以关闭
+# footer: false # 页脚关闭
+# pageClass: custom-page-class # 添加额外类名,在特定页面中自定义样式
+comment: false #关闭评论
+prev: false #关闭上页
+next: false #关闭下页
+# prev:
+#   text: '页面'
+#   link: '/page'
+# next:
+#   text: 'Markdown'
+#   link: '/markdown'
+```
+
+### 部署github
+
+#### 手动部署
+
+创建仓库wbvi.github.io
+
+
+
+1. "在你的项目的 `.github/workflows`目录下创建一个名为 `deploy.yml`的文件，并添加如下内容："
+
+   ```
+   # Sample workflow for building and deploying a VitePress site to GitHub Pages
+   #
+   name: Deploy VitePress site to Pages
+
+   on:
+     # Runs on pushes targeting the `main` branch. Change this to `master` if you're
+     # using the `master` branch as the default branch.
+     push:
+       branches: [main]
+
+     # Allows you to run this workflow manually from the Actions tab
+     workflow_dispatch:
+
+   # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+   permissions:
+     contents: read
+     pages: write
+     id-token: write
+
+   # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+   # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+   concurrency:
+     group: pages
+     cancel-in-progress: false
+
+   jobs:
+     # Build job
+     build:
+       runs-on: ubuntu-latest
+       steps:
+         - name: Checkout
+           uses: actions/checkout@v3
+           with:
+             fetch-depth: 0 # Not needed if lastUpdated is not enabled
+         # - uses: pnpm/action-setup@v2 # Uncomment this if you're using pnpm
+         - name: Setup Node
+           uses: actions/setup-node@v3
+           with:
+             node-version: 18
+             cache: npm # or pnpm / yarn
+         - name: Setup Pages
+           uses: actions/configure-pages@v3
+         - name: Install dependencies
+           run: npm ci # or pnpm install / yarn install
+         - name: Build with VitePress
+           run: npm run docs:build # or pnpm docs:build / yarn docs:build
+         - name: Upload artifact
+           uses: actions/upload-pages-artifact@v2
+           with:
+             path: docs/.vitepress/dist
+
+     # Deployment job
+     deploy:
+       environment:
+         name: github-pages
+         url: ${{ steps.deployment.outputs.page_url }}
+       needs: build
+       runs-on: ubuntu-latest
+       name: Deploy
+       steps:
+         - name: Deploy to GitHub Pages
+           id: deployment
+           uses: actions/deploy-pages@v2
+   ```
+2. 在你的代码仓库设置中，找到"Pages"菜单项，在"Build and deployment > Source"下选择"GitHub Actions"作为构建和部署的源。
+3. 将你的更改推送到 `main`分支，并等待GitHub Actions工作流程完成。你会看到你的网站部署到 `https://<username>.github.io/[repository]/`或 `https://<custom-domain>/`，具体取决于你的设置。每当推送到 `main`分支时，你的网站将自动部署。
+
+### 部署gitee
+
 ## 基础配置
 
 ### 目录
-
 
 git方法
 
@@ -150,3 +259,77 @@ https://blog.csdn.net/sinat_16643223/article/details/111713296
 [VuePress](https://v2.vuepress.vuejs.org/zh/)、[Docusaurus](https://docusaurus.io/)、[Astro](https://astro.build/)、[Modern.js](https://modernjs.dev/)、[docsify](https://docsify.js.org/)、[Docz](https://www.docz.site/)、[Nuxt](https://nuxt.com/)、[Jekyll](https://jekyllrb.com/)、[Hexo](https://hexo.io/zh-cn/)、[Hugo](https://gohugo.io/)、[idoc](https://wangchujiang.com/idoc/)、[Styleguidist](https://react-styleguidist.js.org/)、[Storybook](https://storybook.js.org/)、[Gatsby](https://www.gatsbyjs.com/)、[Eleventy](https://www.11ty.dev/)、[Publii](https://getpublii.com/)
 
 :::
+
+# Sample workflow for building and deploying a VitePress site to GitHub Pages
+
+name: Deploy VitePress site to Pages
+
+on:
+
+# Runs on pushes targeting the `main` branch. Change this to `master` if you're
+
+# using the `master` branch as the default branch.
+
+  push:
+    branches: [main]
+
+# Allows you to run this workflow manually from the Actions tab
+
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+
+# Build job
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Not needed if lastUpdated is not enabled
+      # - uses: pnpm/action-setup@v2 # Uncomment this if you're using pnpm
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: npm # or pnpm / yarn
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Install dependencies
+        run: npm ci # or pnpm install / yarn install
+      - name: Build with VitePress
+        run: npm run docs:build # or pnpm docs:build / yarn docs:build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: docs/.vitepress/dist
+
+# Deployment job
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2

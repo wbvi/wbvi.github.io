@@ -106,7 +106,7 @@ export default defineConfig({
 
     //页脚
     footer: {
-      message: 'Released under the MIT License.',
+      message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
       copyright: 'Copyright © 2023 备案号：<a href="https://beian.miit.gov.cn/">京****号</a>',
     },
 
@@ -116,8 +116,8 @@ export default defineConfig({
     //返回顶部文字修改(移动端)
     returnToTopLabel: '返回顶部',
 
-    //大纲显示2-3级标题
-    outline: [2, 3],
+    //大纲显示2-5级标题
+    outline: [2, 5],
     //大纲顶部标题
     outlineTitle: '当前页大纲',
 
