@@ -42,9 +42,6 @@ Vite 很好地解决了这些问题：几乎立即启动服务器，只按需编
 
 测试访问
 
-https://vitepress.yiov.top/
-
-https://wbvi.github.io/
 
 ## 快速上手
 
@@ -140,7 +137,47 @@ https://blog.csdn.net/sinat_16643223/article/details/111713296
 
 * vitepress主题
   [主题1](https://github.com/Charles7c/charles7c.github.io)
+* vitepree网上文章
 
+[VuePress + github pages + Travis CI 教程](https://www.jianshu.com/p/a7435b8bc8bc)
+
+[十分钟使用vitepress+github action+gitee pages 搭建你的专属文档](https://zhuanlan.zhihu.com/p/663023274 "知乎")
+
+https://blog.csdn.net/qq_30678861/article/details/134004823
+
+https://agangdundan.cn/origin/
+
+https://vitepress.yiov.top/
+
+
+
+---
+
+
+---
+# vitepress
+
+- 官网：[vitepress官网](https://vitepress.dev/)、
+- 其他项目参考：[前端吧](https://github.com/msyuan/vitePress-project)、[Yiov](https://github.com/Yiov/vitepress-doc)
+- 好插件：[自动侧边栏](https://github.com/QC2168/vite-plugin-vitepress-auto-sidebar)、[导航](https://github.com/maomao1996/vitepress-nav-template)、
+- 本主题：[中文教程](https://vitepress.yiov.top/)
+
+# # vite
+
+茂茂大神导航
+https://github.com/maomao1996/vitepress-nav-template
+
+文章自动侧边栏可以参考
+https://github.com/QC2168/vite-plugin-vitepress-auto-sidebar
+
+# 参考链接
+
+* vitepree
+
+[vitepress中文教程](https://vitepress.docschina.org/)
+
+* vitepress主题
+  [主题1](https://github.com/Charles7c/charles7c.github.io)
 * vitepree网上文章
 
 [VuePress + github pages + Travis CI 教程](https://www.jianshu.com/p/a7435b8bc8bc)
