@@ -21,7 +21,6 @@ next: false #关闭下页
 ---
 # 软件库
 
-
 ## 软件导航
 
 [腾讯软件](https://pc.qq.com/)   [360软件管家](https://soft.360.cn/)   [联想应用商店](https://lestore.lenovo.com/)
@@ -109,7 +108,19 @@ FoxmailSetup_7.2.24.96
 ## 必备推荐
 
 * [utool](https://u.tools/)
-* [Everything](https://www.voidtools.com/zh-cn/)
+* [Everything](https://www.voidtools.com/zh-cn/)## 神器
+
+
+# Github加速神器
+
+推荐3：Watt Toolkit
+Watt Toolkit（原名Steam++）
+是一个开源跨平台的多功能 Steam 工具箱。
+
+官网地址：https://steampp.net/
+Github地址：BeyondDimension/SteamTools
+Github下载地址：BeyondDimension/SteamTools/releases
+
 
 ### 办公插件
 
