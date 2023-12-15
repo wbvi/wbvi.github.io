@@ -104,7 +104,7 @@ export default defineConfig({
 
     //页脚
     footer: {
-      // message: 'Released under the MIT License.',
+      message: 'Released under the MIT License.',
       copyright: 'Copyright © 2023 备案号：<a href="https://beian.miit.gov.cn/">京****号</a>',
     },
 
