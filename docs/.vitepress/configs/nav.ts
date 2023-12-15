@@ -64,17 +64,12 @@ export const nav: DefaultTheme.Config['nav'] = [
         ],
     },
 
-    // 
-    { text: '生活', link: '/life/' },
-    // 
+    // 顶端导航
+    { text: '自然', link: '/life/' },
     { text: '笔记', link: '/notes/' },
-    // 
     { text: '工作', link: '/work/' },
-    // 
     { text: '软件', link: '/tools/' },
-    // 其他
     { text: '其他', link: '/other/' },
-    // 
     { text: '关于', link: '/about/' },
 
     // 仓库地址
@@ -93,10 +88,10 @@ export const nav: DefaultTheme.Config['nav'] = [
 
 // 侧边栏
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-    // 目录1
+    // 自然侧边栏
     '/life/': [
         {
-            text: '目录',
+            text: '天',
             collapsed: false,
             items: [
                 { text: 'Index', link: '/life/' },
@@ -105,7 +100,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             ],
         },
         {
-            text: '目录',
+            text: '人',
             collapsed: false,
             items: [
                 { text: 'Index', link: '/life/' },
@@ -114,7 +109,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             ],
         },
         {
-            text: '目录',
+            text: '地',
             collapsed: false,
             items: [
                 { text: 'Index', link: '/life/' },
@@ -124,11 +119,19 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         },
     ],
 
-    // 笔记
+    // 笔记侧边栏
     '/notes/': [
-        { text: '笔记目录', link: '/notes/list' },
         {
-            text: '1-基础',
+            text: '1-计算机基础',
+            collapsed: false,
+            items: [
+                { text: '计算机基础', link: '/life/' },
+                { text: 'One', link: '/life/one' },
+                { text: 'Two', link: '/life/two' }
+            ],
+        },
+        {
+            text: '2-开发',
             collapsed: false,
             items: [
                 { text: 'Index', link: '/life/' },
@@ -137,7 +140,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             ],
         },
         {
-            text: '2-中础',
+            text: '3-架构',
             collapsed: false,
             items: [
                 { text: 'Index', link: '/life/' },
@@ -145,17 +148,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
                 { text: 'Two', link: '/life/two' }
             ],
         },
-        {
-            text: '3-高础',
-            collapsed: false,
-            items: [
-                { text: 'Index', link: '/life/' },
-                { text: 'One', link: '/life/one' },
-                { text: 'Two', link: '/life/two' }
-            ],
-        },
+        { text: '笔记导航', link: '/notes/list' },
+
     ],
-    // 工作
+    // 工作侧边栏
     '/work/': [
         {
             text: '目录',
@@ -185,13 +181,13 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             ],
         },
     ],
-    // 目录4
+    // 软件库侧边栏
     '/tools/': [
         {
-            text: '笔记-目录',
+            text: '软件库',
             items: [
-                { text: 'Index', link: '/tools/' },
-                { text: 'Three', link: '/tools/three' },
+                { text: '软件导航', link: '#软件导航 ' },
+                { text: '软件分类', link: '#软件分类' },
                 { text: 'Four', link: '/tools/four' }
             ],
         },

@@ -1,7 +1,7 @@
 ---
 # layout: home
 # navbar: false # 导航栏关闭
-sidebar: false # 侧边栏关闭
+# sidebar: false # 侧边栏关闭
 # aside: left # 大纲默认右侧
 # aside: false # 大纲关闭
 # 设置到六级标题可以用 'deep' ，关闭 false,此设置与 页面中的大纲 设置相同，会覆盖！

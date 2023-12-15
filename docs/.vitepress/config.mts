@@ -63,10 +63,10 @@ export default defineConfig({
     //设置站点标题 会覆盖title
     //siteTitle: 'Hello World',
 
-    //导航栏
+    //全局导航栏
     nav,
-    //侧边栏 
-    // sidebar,
+    //全局侧边栏 
+    sidebar,
     
     //本地搜索
     search: {
