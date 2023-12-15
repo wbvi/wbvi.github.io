@@ -47,28 +47,28 @@ hero:
     - theme: sponsor
       text: 工作导航
       link: /nav/worklnk/  
-# features:
-#   - icon: 
-#       dark: /vitepress.png
-#       light: /vitepress-light.png
-#     title: 享受Vite DX
-#     details: 即时服务器启动，闪电般快速的热更新，并利用 Vite 生态插件。
-#     link: https://vitejs.cn/
-#     linkText: Vite
-#   - icon: 
-#       dark: /vitepress.png
-#       light: /vitepress-light.png
-#     title: 享受Vite DX
-#     details: 即时服务器启动，闪电般快速的热更新，并利用 Vite 生态插件。
-#     link: https://vitejs.cn/
-#     linkText: Vite
-#   - icon: 
-#       dark: /vitepress.png
-#       light: /vitepress-light.png
-#     title: 享受Vite DX
-#     details: 即时服务器启动，闪电般快速的热更新，并利用 Vite 生态插件。
-#     link: https://vitejs.cn/
-#     linkText: Vite
+features:
+  - icon: 
+      dark: /vitepress.png
+      light: /vitepress-light.png
+    title: 我的导航
+    details: 搬砖。
+    link: /nav/mylnk/
+    linkText: 点击直达
+  - icon: 
+      dark: /vitepress.png
+      light: /vitepress-light.png
+    title: 软件导航
+    details: 热爱一切美学
+    link: /nav/softlnk/
+    linkText: 点击直达
+  - icon: 
+      dark: /vitepress.png
+      light: /vitepress-light.png
+    title: 斜杆
+    details: 平平无奇。
+    link: https://wbvi.github.io
+    linkText: 点击直达
 ---
 <style>
 :root {

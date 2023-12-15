@@ -101,7 +101,9 @@ WinRAR_6.02_x64.7z
 
 ### 桌面
 
-### 邮件
+### 邮箱
+
+* 官方下载：https://www.foxmail.com/
 
 FoxmailSetup_7.2.24.96
 
@@ -109,7 +111,6 @@ FoxmailSetup_7.2.24.96
 
 * [utool](https://u.tools/)
 * [Everything](https://www.voidtools.com/zh-cn/)## 神器
-
 
 # Github加速神器
 
@@ -120,7 +121,6 @@ Watt Toolkit（原名Steam++）
 官网地址：https://steampp.net/
 Github地址：BeyondDimension/SteamTools
 Github下载地址：BeyondDimension/SteamTools/releases
-
 
 ### 办公插件
 

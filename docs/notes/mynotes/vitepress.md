@@ -4,6 +4,8 @@
 ---
 本站网址：https://wbvi.github.io
 
+本地项目地址：http://localhost:5173/
+
 # 介绍
 
 ## 前言
@@ -19,16 +21,7 @@ VitePress 作为 [VuePress](https://v2.vuepress.vuejs.org/zh/) 的孪生兄弟�
 它是搭建文档的 静态站点生成器(SSG) 最佳利器之一
 
 * VitePress官网：[https://vitepress.dev/](https://vitepress.dev/)
-* vite官网：[https://vitejs.cn/](https://vitejs.cn/)
-
-其他静态站点生成器
-
-[VuePress](https://v2.vuepress.vuejs.org/zh/)、[Docusaurus](https://docusaurus.io/)、[Astro](https://astro.build/)、[Modern.js](https://modernjs.dev/)、[docsify](https://docsify.js.org/)、[Docz](https://www.docz.site/)、[Nuxt](https://nuxt.com/)、[Jekyll](https://jekyllrb.com/)、[Hexo](https://hexo.io/zh-cn/)、[Hugo](https://gohugo.io/)、[idoc](https://wangchujiang.com/idoc/)、[Styleguidist](https://react-styleguidist.js.org/)、[Storybook](https://storybook.js.org/)、[Gatsby](https://www.gatsbyjs.com/)、[Eleventy](https://www.11ty.dev/)、[Publii](https://getpublii.com/)
-
-## 参考网站
-
-* [VitePress 中文网](https://vitepress.qzxdp.cn/)
-* [GitHub仓库](https://github.com/vuejs/vitepress)
+* vite中文网：[https://vitejs.cn/](https://vitejs.cn/)
 
 # 指南
 
@@ -37,7 +30,6 @@ VitePress搭建
 ## 快速上手
 
 从新开始安装vitpress
-
 
 ### 项目拉取装vitpress
 
@@ -119,65 +111,42 @@ wbvi.github.io
 
 # 配置
 
-# git方法
+## 配置
 
-### 手把手教你在VSCode中使用Git
+git方法
+
+手把手教你在VSCode中使用Git
 
 https://blog.csdn.net/sinat_16643223/article/details/111713296
 
-# 参考链接
+## 参考链接
 
-* vitepree
-
-[vitepress中文教程](https://vitepress.docschina.org/)
-
-* vitepress主题
-  [主题1](https://github.com/Charles7c/charles7c.github.io)
-* vitepree网上文章
-
-[VuePress + github pages + Travis CI 教程](https://www.jianshu.com/p/a7435b8bc8bc)
-
-[十分钟使用vitepress+github action+gitee pages 搭建你的专属文档](https://zhuanlan.zhihu.com/p/663023274 "知乎")
-
-https://blog.csdn.net/qq_30678861/article/details/134004823
-
-https://agangdundan.cn/origin/
-
-https://vitepress.yiov.top/
-
----
-
----
-
-# vitepress
+* 文档参考：[VitePress 中文网](https://vitepress.qzxdp.cn/)、[vitepress中文教程](https://vitepress.docschina.org/)
 
 - 官网：[vitepress官网](https://vitepress.dev/)、
-- 其他项目参考：[前端吧](https://github.com/msyuan/vitePress-project)、[Yiov](https://github.com/Yiov/vitepress-doc)
 - 好插件：[自动侧边栏](https://github.com/QC2168/vite-plugin-vitepress-auto-sidebar)、[导航](https://github.com/maomao1996/vitepress-nav-template)、
-- 本主题：[中文教程](https://vitepress.yiov.top/)
+- 本主题：[中文教程](https://vitepress.yiov.top/)、[vitepress中文教程](https://vitepress.yiov.top)
+- vitepress主题仓库：[vitepress官方GitHub仓库](https://github.com/vuejs/vitepress)、[查尔斯的知识库](https://github.com/Charles7c/charles7c.github.io).、 [茂茂大神导航](https://github.com/maomao1996/vitepress-nav-template)、[前端吧](https://github.com/msyuan/vitePress-project)、[Yiov](https://github.com/Yiov/vitepress-doc)、
+- [主题1](https://github.com/Charles7c/charles7c.github.io)
 
-# # vite
+#### 网上文章
 
-茂茂大神导航
-https://github.com/maomao1996/vitepress-nav-template
-
-文章自动侧边栏可以参考
-https://github.com/QC2168/vite-plugin-vitepress-auto-sidebar
-
-# 参考链接
-
-* vitepree
-
-[vitepress中文教程](https://vitepress.docschina.org/)
-
-* vitepress主题
-  [主题1](https://github.com/Charles7c/charles7c.github.io)
-* vitepree网上文章
+[文章自动侧边栏可以参考](https://github.com/QC2168/vite-plugin-vitepress-auto-sidebar "版本低不能用")
 
 [VuePress + github pages + Travis CI 教程](https://www.jianshu.com/p/a7435b8bc8bc)
 
 [十分钟使用vitepress+github action+gitee pages 搭建你的专属文档](https://zhuanlan.zhihu.com/p/663023274 "知乎")
 
-https://blog.csdn.net/qq_30678861/article/details/134004823
+[从零用VitePress搭建博客教程](https://blog.csdn.net/qq_30678861/article/details/134004823)
 
-https://agangdundan.cn/origin/
+[VitePress 搭建静态网站并在 github和gitee 部署](https://agangdundan.cn/origin/)
+
+[0-1vitepress](https://mp.weixin.qq.com/s?__biz=Mzg5MDA4NTUyNA==&mid=2247491628&idx=1&sn=eb79e162f954e79aefca15a2e5d59758&chksm=cfe0a9d7f89720c1a84a9e200a5057854aa9a7dbf4785850f80b8a029bcfb0d4fb90d1237c50&mpshare=1&scene=1&srcid=1214dodUlL1Bhnku0Qs4ZgsZ&sharer_shareinfo=48b88e275fcab9160453c44b9399daf7&sharer_shareinfo_first=48b88e275fcab9160453c44b9399daf7&version=4.1.15.6007&platform=win#rd)
+
+#### 其他
+
+::: tip 其他静态站点生成器
+
+[VuePress](https://v2.vuepress.vuejs.org/zh/)、[Docusaurus](https://docusaurus.io/)、[Astro](https://astro.build/)、[Modern.js](https://modernjs.dev/)、[docsify](https://docsify.js.org/)、[Docz](https://www.docz.site/)、[Nuxt](https://nuxt.com/)、[Jekyll](https://jekyllrb.com/)、[Hexo](https://hexo.io/zh-cn/)、[Hugo](https://gohugo.io/)、[idoc](https://wangchujiang.com/idoc/)、[Styleguidist](https://react-styleguidist.js.org/)、[Storybook](https://storybook.js.org/)、[Gatsby](https://www.gatsbyjs.com/)、[Eleventy](https://www.11ty.dev/)、[Publii](https://getpublii.com/)
+
+:::
