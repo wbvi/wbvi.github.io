@@ -234,6 +234,21 @@ https://gitee.leader755.com/leader755/28884.html
 
 https://juejin.cn/post/7124142007659790372
 
+https://www.jianshu.com/p/918b6d87e3fd
+
+```
+#查看pnpm 源：
+wbvi.github.io>pnpm config get registry
+https://registry.npmjs.org/
+# 设置为淘宝镜像源，可以使用下面的命令：
+pnpm config set registry https://registry.npmmirror.com
+# 切回原镜像源，可以使用下面的命令：
+pnpm config set registry https://registry.npmjs.org
+
+
+```
+
+
 ```go
 Usage: pnpm [command] [flags]
        pnpm [ -h | --help | -v | --version ]
