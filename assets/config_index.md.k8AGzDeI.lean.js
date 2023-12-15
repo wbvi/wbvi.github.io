@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.TktCGlL7.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"config/index.md","filePath":"config/index.md","lastUpdated":1702284585000}'),n={name:"config/index.md"};function o(c,r,i,s,d,p){return t(),a("div")}const m=e(n,[["render",o]]);export{_ as __pageData,m as default};

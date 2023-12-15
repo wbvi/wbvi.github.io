@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t}from"./chunks/framework.TktCGlL7.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"nav/bookmarks.md","filePath":"nav/bookmarks.md","lastUpdated":1702284585000}'),o={name:"nav/bookmarks.md"};function r(s,n,c,m,d,p){return e(),t("div")}const k=a(o,[["render",r]]);export{i as __pageData,k as default};
