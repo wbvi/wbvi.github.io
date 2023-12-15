@@ -139,12 +139,9 @@ next: false #关闭下页
 
 ### 部署github
 
-
 #### 手动部署
 
 创建仓库wbvi.github.io
-
-
 
 1. "在你的项目的 `.github/workflows`目录下创建一个名为 `deploy.yml`的文件，并添加如下内容："
 
@@ -220,13 +217,89 @@ next: false #关闭下页
 
 ## 基础配置
 
-### 目录
+### 侧边栏
+
+手动侧边栏
+
+
+配置自动侧边栏
+
+pnpm 卸载依赖：pnpm remove 依赖包名字
+
+pnpm remove vitepress-sidebar
+
+pnpm 安装：https://pnpm.io/zh/installation
+
+https://gitee.leader755.com/leader755/28884.html
+
+https://juejin.cn/post/7124142007659790372
+
+```go
+Usage: pnpm [command] [flags]
+       pnpm [ -h | --help | -v | --version ]
+
+Manage your dependencies:
+      add                  Installs a package and any packages that it depends on. By default, any new package is installed as a prod dependency
+      import               Generates a pnpm-lock.yaml from an npm package-lock.json (or npm-shrinkwrap.json) file
+   i, install              Install all dependencies for a project
+  it, install-test         Runs a pnpm install followed immediately by a pnpm test
+  ln, link                 Connect the local project to another one
+      prune                Removes extraneous packages
+  rb, rebuild              Rebuild a package
+  rm, remove               Removes packages from node_modules and from the project's package.json
+      unlink               Unlinks a package. Like yarn unlink but pnpm re-installs the dependency after removing the external link
+  up, update               Updates packages to their latest version based on the specified range
+
+Review your dependencies:
+      audit                Checks for known security issues with the installed packages
+      licenses             Check licenses in consumed packages
+  ls, list                 Print all the versions of packages that are installed, as well as their dependencies, in a tree-structure
+      outdated             Check for outdated packages
+
+Run your scripts:
+      exec                 Executes a shell command in scope of a project
+      run                  Runs a defined package script
+      start                Runs an arbitrary command specified in the package's "start" property of its "scripts" object
+   t, test                 Runs a package's "test" script, if one was provided
+
+Other:
+      pack
+      publish              Publishes a package to the registry
+      root
+
+Manage your store:
+      store add            Adds new packages to the pnpm store directly. Does not modify any projects or files outside the store
+      store path           Prints the path to the active store directory
+      store prune          Removes unreferenced (extraneous, orphan) packages from the store
+      store status         Checks for modified packages in the store
+
+Options:
+  -r, --recursive          Run the command for each project in the workspace.
+```
+
+插件有两个一个是：
+
+generateSidebar
+
+https://cloud.tencent.com/developer/article/2270641
+
+仓库1：https://github.com/jooy2/vitepress-sidebar
+
+仓库2:https://github.com/QC2168/vite-plugin-vitepress-auto-sidebar
+
 
 git方法
 
 手把手教你在VSCode中使用Git
 
 https://blog.csdn.net/sinat_16643223/article/details/111713296
+
+
+## 安装其他
+
+pnpm i 
+
+
 
 ## 参考链接
 
