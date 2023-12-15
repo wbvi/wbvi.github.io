@@ -12,6 +12,8 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "三二一",
   description: "文档和工具",
+  // 死链检查
+  ignoreDeadLinks: true,
 // 全局开启上次更新
   lastUpdated: true,
   // #region fav
