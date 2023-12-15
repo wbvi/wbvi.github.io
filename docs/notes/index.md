@@ -19,7 +19,6 @@ next: false #关闭下页
 #   text: 'Markdown'
 #   link: '/markdown'
 ---
-
 # 笔记目录
 
 ## 导航
@@ -63,6 +62,11 @@ next: false #关闭下页
 
 ### 好项目
 
-- [vitepress](./mynotes/vitepress.md)
+#### vitepress
+
 - zabbix
 - 堡垒机
+
+
+- [vitepress](./mynotes/vitepress.md)
+-

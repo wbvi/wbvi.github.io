@@ -12,9 +12,7 @@
 
 ### 简介
 
-[VitePress](https://vitepress.dev/) 使用 Markdown 编写的源内容，生成可以轻松部署在任何地方的静态 HTML 页面
-
-VitePress 作为 [VuePress](https://v2.vuepress.vuejs.org/zh/) 的孪生兄弟，借助 [Vue 3](https://cn.vuejs.org/) 和 [vite](https://vitejs.cn/)，VitePress 提供了明显更好的 DX、更好的生产性能、更精致的默认主题以及更灵活的定制 API
+[VitePress](https://vitepress.dev/) 使用 Markdown 编写的源内容，生成可以轻松部署在任何地方的静态 HTML 页面，VitePress 作为 [VuePress](https://v2.vuepress.vuejs.org/zh/) 的孪生兄弟，借助 [Vue 3](https://cn.vuejs.org/) 和 [vite](https://vitejs.cn/)，VitePress 提供了明显更好的 DX、更好的生产性能、更精致的默认主题以及更灵活的定制 API
 
 ## 官方
 
@@ -23,27 +21,13 @@ VitePress 作为 [VuePress](https://v2.vuepress.vuejs.org/zh/) 的孪生兄弟�
 * VitePress官网：[https://vitepress.dev/](https://vitepress.dev/)
 * vite中文网：[https://vitejs.cn/](https://vitejs.cn/)
 
-# 指南
+# 基础配置
 
 VitePress搭建
 
 ## 快速上手
 
-从新开始安装vitpress
-
-### 项目拉取装vitpress
-
-* 拉取项目
-
-```
- git clone git@github.com:wbvi/wbvi.github.io.git
-```
-
-* 安装依赖
-
-```
-pnpm install
-```
+### 从零开始装vitpress
 
 1. 首先需要本地安装Node.js，需要16版本及以上。
 2. 推荐使用pnpm，命令行安装npm install -g pnpm。
@@ -81,6 +65,20 @@ pnpm docs:preview
 
 启动开发模式，把命令行中出现的网址复制到浏览器中，即可预览效果。
 
+### 项目拉取装vitpress
+
+* 拉取项目
+
+```
+ git clone git@github.com:wbvi/wbvi.github.io.git
+```
+
+* 安装依赖
+
+```
+pnpm install
+```
+
 ### 工程结构
 
 为了方便参考，这里列出我博客的工程目录。
@@ -109,9 +107,10 @@ wbvi.github.io
 └─README.md         # 工程说明
 ```
 
-# 配置
+## 基础配置
 
-## 配置
+### 目录
+
 
 git方法
 
@@ -125,7 +124,7 @@ https://blog.csdn.net/sinat_16643223/article/details/111713296
 
 - 官网：[vitepress官网](https://vitepress.dev/)、
 - 好插件：[自动侧边栏](https://github.com/QC2168/vite-plugin-vitepress-auto-sidebar)、[导航](https://github.com/maomao1996/vitepress-nav-template)、
-- 本主题：[中文教程](https://vitepress.yiov.top/)、[vitepress中文教程](https://vitepress.yiov.top)
+- 本站主题：[中文教程](https://vitepress.yiov.top/)、[vitepress中文教程](https://vitepress.yiov.top)
 - vitepress主题仓库：[vitepress官方GitHub仓库](https://github.com/vuejs/vitepress)、[查尔斯的知识库](https://github.com/Charles7c/charles7c.github.io).、 [茂茂大神导航](https://github.com/maomao1996/vitepress-nav-template)、[前端吧](https://github.com/msyuan/vitePress-project)、[Yiov](https://github.com/Yiov/vitepress-doc)、
 - [主题1](https://github.com/Charles7c/charles7c.github.io)
 - 仓库 https://github.com/mondaylab/mondaylab-blog

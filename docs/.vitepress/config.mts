@@ -96,9 +96,9 @@ export default defineConfig({
     //社交链接
     socialLinks: [
       // { icon: 'github', link: 'https://github.com/Yiov/vitepress-doc' },
-      { icon: 'github', link: 'https://github.com/' },
+      { icon: 'github', link: 'https://github.com/wbvi/wbvi.github.io' },
       // { icon: 'twitter', link: 'https://twitter.com/' }, 
-      // { icon: 'discord', link: 'https://chat.vitejs.dev/' }, 
+      { icon: 'discord', link: 'https://gitee.com/' }, 
     ],
 
     //手机端深浅模式文字修改

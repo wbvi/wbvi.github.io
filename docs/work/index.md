@@ -18,12 +18,10 @@ next: false #关闭下页
 # next:
 #   text: 'Markdown'
 #   link: '/markdown'
-
 ---
+# 工作
 
-
-
-# 工作目录
+[指南](./list.md) 、[导航](./lnk.md) 、[制度](./list.md)
 
 ## 办公指南
 
@@ -38,7 +36,6 @@ next: false #关闭下页
 服务指南
 
 规章制度
-
 
 常用下载
 
