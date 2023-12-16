@@ -53,23 +53,24 @@ export const nav: DefaultTheme.Config['nav'] = [
     // },
     // { text: '导航', link: '/nav/' },
     // 导航折叠
-    {
-        text: '导航',
-        items: [
-            { text: '我的导航', link: '/nav/mylnk/' },
-            { text: '软件导航', link: '/nav/softlnk/' },
-            { text: '工作导航', link: '/nav/worklnk/' },
-            // 
-            // { text: '工作导航', link: '/nav/' },
-        ],
-    },
+    // {
+    //     text: '导航',
+    //     items: [
+    //         { text: '我的导航', link: '/nav/mylnk/' },
+    //         { text: '软件导航', link: '/nav/softlnk/' },
+    //         { text: '工作导航', link: '/nav/worklnk/' },
+    //         // 
+    //         // { text: '工作导航', link: '/nav/' },
+    //     ],
+    // },
 
     // 顶端导航
-    { text: '自然', link: '/life/' },
-    { text: '笔记', link: '/notes/' },
-    { text: '工作', link: '/work/' },
-    { text: '软件', link: '/tools/' },
-    { text: '其他', link: '/other/' },
+    // { text: '自然', link: '/life/' },
+    // { text: '笔记', link: '/notes/' },
+    // { text: '工作', link: '/work/' },
+    // { text: '软件', link: '/tools/' },
+    // { text: '其他', link: '/other/' },
+    { text: '归档', link: '/Archiving/' },
     { text: '关于', link: '/about/' },
 
     // 仓库地址
@@ -88,8 +89,8 @@ export const nav: DefaultTheme.Config['nav'] = [
 
 // 侧边栏
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-    // 自然侧边栏
-    '/life/': [
+
+    '/life/': [     // 自然侧边栏
         {
             text: '天',
             collapsed: false,
@@ -119,8 +120,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         },
     ],
 
-    // 笔记侧边栏
-    '/notes/': [
+
+    '/notes/': [     // 笔记侧边栏
         {
             text: '1-计算机基础',
             collapsed: false,
@@ -136,7 +137,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             items: [
                 { text: 'Index', link: '/life/' },
                 { text: 'One', link: '/life/one' },
-                { text: 'Two', link: '/life/two' }
+                { text: 'Two', link: '/life/two' },
             ],
         },
         {
@@ -145,21 +146,21 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             items: [
                 { text: 'Index', link: '/life/' },
                 { text: 'One', link: '/life/one' },
-                { text: 'Two', link: '/life/two' }
+                { text: 'Two', link: '/life/two' },
             ],
         },
         { text: '笔记导航', link: '/notes/list' },
 
     ],
-    // 工作侧边栏
-    '/work/': [
+
+    '/work/': [     // 工作侧边栏
         {
             text: '目录',
             collapsed: false,
             items: [
                 { text: 'Index', link: '/life/' },
                 { text: 'One', link: '/life/one' },
-                { text: 'Two', link: '/life/two' }
+                { text: 'Two', link: '/life/two' },
             ],
         },
         {
@@ -168,7 +169,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             items: [
                 { text: 'Index', link: '/life/' },
                 { text: 'One', link: '/life/one' },
-                { text: 'Two', link: '/life/two' }
+                { text: 'Two', link: '/life/two' },
             ],
         },
         {
@@ -177,20 +178,41 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             items: [
                 { text: 'Index', link: '/life/' },
                 { text: 'One', link: '/life/one' },
-                { text: 'Two', link: '/life/two' }
+                { text: 'Two', link: '/life/two' },
             ],
         },
     ],
-    // 软件库侧边栏
-    '/tools/': [
+
+    '/tools/': [     // 软件库侧边栏
         {
             text: '软件库',
             items: [
                 { text: '软件导航', link: '#软件导航 ' },
                 { text: '软件分类', link: '#软件分类' },
-                { text: 'Four', link: '/tools/four' }
+                { text: 'Four', link: '/tools/four' },
             ],
         },
+    ],
+
+    '/Archiving/': [ //归档
+        {
+            text: '2023年',
+            collapsed: false,
+            items: [
+                { text: '12月', link: '/life/' },
+                { text: '11月', link: '/life/one' },
+                { text: 'Two', link: '/life/two' },
+            ],
+        },
+        {
+            text: '导航',
+            items: [
+                { text: '软件导航', link: '/Archiving/ ' },
+                { text: '软件分类', link: '/Archiving/' },
+            ],
+        },
+        { text: '首页', link: '/' },
+
     ],
 
 }

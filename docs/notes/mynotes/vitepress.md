@@ -221,7 +221,6 @@ next: false #关闭下页
 
 手动侧边栏
 
-
 配置自动侧边栏
 
 pnpm 卸载依赖：pnpm remove 依赖包名字
@@ -247,7 +246,6 @@ pnpm config set registry https://registry.npmjs.org
 
 
 ```
-
 
 ```go
 Usage: pnpm [command] [flags]
@@ -292,15 +290,29 @@ Options:
   -r, --recursive          Run the command for each project in the workspace.
 ```
 
+#### 侧边栏插件
+
 插件有两个一个是：
 
 generateSidebar
 
 https://cloud.tencent.com/developer/article/2270641
 
-仓库1：https://github.com/jooy2/vitepress-sidebar
+插件1：https://github.com/jooy2/vitepress-sidebar
 
-仓库2:https://github.com/QC2168/vite-plugin-vitepress-auto-sidebar
+::: tip
+
+没安装过
+
+:::
+
+插件2:https://github.com/QC2168/vite-plugin-vitepress-auto-sidebar
+
+::: tip
+
+安装需要降低版本
+
+:::
 
 
 git方法
@@ -309,12 +321,9 @@ git方法
 
 https://blog.csdn.net/sinat_16643223/article/details/111713296
 
-
 ## 安装其他
 
-pnpm i 
-
-
+pnpm i
 
 ## 参考链接
 
