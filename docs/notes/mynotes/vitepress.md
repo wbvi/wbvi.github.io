@@ -137,78 +137,118 @@ next: false #关闭下页
 #   link: '/markdown'
 ```
 
+## 部署
+
 ### 部署github
 
 #### 手动部署
+
+#### 自动化部署pages
+
+::: tip 说明
+
+实测
+
+:::
 
 创建仓库wbvi.github.io
 
 1. "在你的项目的 `.github/workflows`目录下创建一个名为 `deploy.yml`的文件，并添加如下内容："
 
    ```shell
-   # Sample workflow for building and deploying a VitePress site to GitHub Pages
-   #
-   name: Deploy VitePress site to Pages
+   # 执行成功
+   name: Deploy Pages
 
    on:
-     # Runs on pushes targeting the `main` branch. Change this to `master` if you're
-     # using the `master` branch as the default branch.
+     # 推送时执行
      push:
-       branches: [main]
-
-     # Allows you to run this workflow manually from the Actions tab
+       branches: [main, master]
+     # pr 时执行
+     pull_request:
+       branches: [main, master]
+     # 定时执行，字段含义：分钟 小时 日 月 星期
+     # 注意：
+     # 1.采用的是 UTC 时间
+     #   即，你配置的 0 0 * * *（UTC）00:00 实际上是（GMT+0800）08:00
+     #   只有你配置为 00 16 * * *（UTC）16:00 实际上才是 GMT+0800）00:00
+     # 2.官方声明：schedule 事件在 GitHub Actions 工作流运行期间负载过高时可能会延迟。 高负载时间包括每小时的开始时间。 为了降低延迟的可能性，建议将您的工作流程安排在不同时间运行。
+     #   例如：笔者之前设定的定时规则为 0 0 * * *（UTC），实际（GMT+0800）执行时间通常在 9:10 ~ 10:00，甚至会出现在 10:00 之后执行的情况
+     # 3.建议不只是定时执行的时候注意时间，自己 push 时也注意时间，早点休息
+     #   例如：笔者多次亲身经历，凌晨时间 pages build and deployment 任务大概能持续 8 分钟的 Current status: deployment_queued 状态，
+     #        即使能进入 Current status: deployment_in_progress 和 Current status: syncing_files 状态，如果文件多点，没一会儿就 Error: Timeout reached, aborting! 超时失败了
+     schedule:
+       - cron: 30 17 * * *
+     # 可手动执行
      workflow_dispatch:
 
-   # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-   permissions:
-     contents: read
-     pages: write
-     id-token: write
-
-   # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-   # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-   concurrency:
-     group: pages
-     cancel-in-progress: false
-
    jobs:
-     # Build job
-     build:
+     # 任务1: 部署 GitHub Pages
+     deploy-github-pages:
        runs-on: ubuntu-latest
        steps:
+         # 1、检出源码
          - name: Checkout
            uses: actions/checkout@v3
            with:
-             fetch-depth: 0 # Not needed if lastUpdated is not enabled
-         # - uses: pnpm/action-setup@v2 # Uncomment this if you're using pnpm
+             # 默认只拉取分支最近一次的 commit，可能会导致一些文章的 GitInfo 变量无法获取，设为 0 代表拉取所有分支所有提交
+             fetch-depth: 0
+         # 2、配置 Git
+         # 主要是 quotePath，默认情况下，文件名包含中文时，git 会使用引号把文件名括起来，这会导致 action 中无法读取 :GitInfo 变量
+         - name: Git Configuration
+           run: |
+             git config --global core.quotePath false
+             git config --global core.autocrlf false
+             git config --global core.safecrlf true
+             git config --global core.ignorecase false  
+         # 3、安装 PNPM
+         - name: Setup PNPM
+           uses: pnpm/action-setup@v2
+           with:
+             version: latest
+         # 4、安装 Node 环境
          - name: Setup Node
            uses: actions/setup-node@v3
            with:
-             node-version: 18
-             cache: npm # or pnpm / yarn
-         - name: Setup Pages
-           uses: actions/configure-pages@v3
+             node-version: 16
+             registry-url: https://registry.npmjs.org
+             cache: pnpm
+         # 5、安装依赖
          - name: Install dependencies
-           run: npm ci # or pnpm install / yarn install
-         - name: Build with VitePress
-           run: npm run docs:build # or pnpm docs:build / yarn docs:build
-         - name: Upload artifact
-           uses: actions/upload-pages-artifact@v2
+           run: pnpm i --frozen-lockfile
+         # 6、打包
+         - name: Build
+           run: pnpm build
+         # 7、部署 GitHub Pages
+         - name: Deploy GitHub Pages
+           uses: JamesIves/github-pages-deploy-action@v4
            with:
-             path: docs/.vitepress/dist
+             # 修改成自己的仓库分支gh-pages,原始是pages
+             BRANCH: gh-pages
+             # BRANCH: pages
+             FOLDER: docs/.vitepress/dist
 
-     # Deployment job
-     deploy:
-       environment:
-         name: github-pages
-         url: ${{ steps.deployment.outputs.page_url }}
-       needs: build
-       runs-on: ubuntu-latest
-       name: Deploy
-       steps:
-         - name: Deploy to GitHub Pages
-           id: deployment
-           uses: actions/deploy-pages@v2
+     # 任务2: 部署 Gitee Pages
+     # deploy-gitee-pages:
+     #   runs-on: ubuntu-latest
+     #   steps:
+     #     # 1、同步内容到 Gitee
+     #     - name: Sync to Gitee
+     #       uses: wearerequired/git-mirror-action@master #使用action库
+     #       env:
+     #         SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }} #Gitee私钥
+     #       with:
+     #         source-repo: git@github.com:wbvi/wbvi.github.io.git #GitHub 源仓库地址
+     #         destination-repo: git@github.com:wbvi/wbvi.github.io.git #Gitee 目标仓库地址
+     #     # 2、部署 Gitee Pages
+     #     - name: Deploy Gitee Pages
+     #       # 手动执行时只同步内容, 不进行部署
+     #       if: github.event_name != 'workflow_dispatch'
+     #       uses: yanglbme/gitee-pages-action@main
+     #       with:
+     #         gitee-username: ${{ secrets.GITEE_USERNAME }} #Gitee 用户名
+     #         gitee-password: ${{ secrets.GITEE_PASSWORD }} #Gitee 密码
+     #         gitee-repo: Charles7c/charles7c #Gitee 仓库
+     #         branch: pages #要部署的分支，默认是 master，若是其他分支，则需要指定（指定的分支必须存在）
    ```
 2. 在你的代码仓库设置中，找到"Pages"菜单项，在"Build and deployment > Source"下选择"GitHub Actions"作为构建和部署的源。
 3. 将你的更改推送到 `main`分支，并等待GitHub Actions工作流程完成。你会看到你的网站部署到 `https://<username>.github.io/[repository]/`或 `https://<custom-domain>/`，具体取决于你的设置。每当推送到 `main`分支时，你的网站将自动部署。
@@ -313,7 +353,6 @@ https://cloud.tencent.com/developer/article/2270641
 安装需要降低版本
 
 :::
-
 
 git方法
 
