@@ -8,6 +8,7 @@ export default defineConfig({
     // base: '/', //网站部署到github的vitepress这个仓库里
   // base: '/wbvi/', //网站部署到gitee的wbvi仓库里
   // base: '/wbvi.github.io/', //网站部署到github的wbvi.github.io仓库里
+  cleanUrls:true,//纯净的网址开启，不以html结尾
   
   lang: 'zh-CN',
   title: "三二一",

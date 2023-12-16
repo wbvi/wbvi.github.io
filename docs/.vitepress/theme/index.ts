@@ -57,7 +57,7 @@ export default {
     giscusTalk({
       repo: 'Yiov/vitepress-doc', //仓库
       // repoId: 'R_kgDOGYFl1A', //仓库ID
-      repoId: 'viwb', //仓库ID
+      repoId: 'wbvi', //仓库ID
       category: 'Announcements', // 讨论分类
       categoryId: 'DIC_kwDOGYFl1M4CayLM', //讨论分类ID
       mapping: 'pathname',

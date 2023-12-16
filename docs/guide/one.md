@@ -12,8 +12,8 @@ import {
 const coreMembers = [
   {
     avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
-    title: 'Creator',
+    name: '成员1',
+    title: '角色Creator',
     links: [
       { icon: 'github', link: 'https://github.com/yyx990803' },
       { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
@@ -21,7 +21,7 @@ const coreMembers = [
   },
   {
     avatar: 'https://www.github.com/kiaking.png',
-    name: 'Kia King Ishii',
+    name: '成员2',
     title: 'Developer',
     links: [
       { icon: 'github', link: 'https://github.com/kiaking' },
@@ -33,7 +33,7 @@ const coreMembers = [
 const partners = [
   {
     avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
+    name: '伙伴1',
     title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/yyx990803' },
@@ -42,7 +42,7 @@ const partners = [
   },
   {
     avatar: 'https://www.github.com/kiaking.png',
-    name: 'Kia King Ishii',
+    name: '伙伴2',
     title: 'Developer',
     links: [
       { icon: 'github', link: 'https://github.com/kiaking' },
@@ -54,15 +54,14 @@ const partners = [
 
 <VPTeamPage>
   <VPTeamPageTitle>
-    <template #title>Our Team</template>
+    <template #title>团队</template>
     <template #lead>
-    The development of VitePress is guided by an international
-    team, some of whom have chosen to be featured below.
+    VitePress的开发由一个国际团队指导，其中一些人选择在下面进行介绍。 
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers size="medium" :members="coreMembers" />
   <VPTeamPageSection>
-    <template #title>Partners</template>
+    <template #title>伙伴</template>
     <template #lead>
     This is our partner.
     </template>

@@ -366,14 +366,13 @@ pnpm i
 
 ## 参考链接
 
-* 文档参考：[VitePress 中文网](https://vitepress.qzxdp.cn/)、[vitepress中文教程](https://vitepress.docschina.org/)
+* 文档参考：[VitePress 中文网](https://vitepress.qzxdp.cn/)、[vitepress中文教程](https://vitepress.docschina.org/)、[中文教程](https://vitepress.yiov.top/)、
 
 - 官网：[vitepress官网](https://vitepress.dev/)、
 - 好插件：[自动侧边栏](https://github.com/QC2168/vite-plugin-vitepress-auto-sidebar)、[导航](https://github.com/maomao1996/vitepress-nav-template)、
-- 本站主题：[中文教程](https://vitepress.yiov.top/)、[vitepress中文教程](https://vitepress.yiov.top)
+- 本站使用主题：[vitepress中文教程](https://vitepress.yiov.top)
 - vitepress主题仓库：[vitepress官方GitHub仓库](https://github.com/vuejs/vitepress)、[查尔斯的知识库](https://github.com/Charles7c/charles7c.github.io).、 [茂茂大神导航](https://github.com/maomao1996/vitepress-nav-template)、[前端吧](https://github.com/msyuan/vitePress-project)、[Yiov](https://github.com/Yiov/vitepress-doc)、
-- [主题1](https://github.com/Charles7c/charles7c.github.io)
-- 仓库 https://github.com/mondaylab/mondaylab-blog
+- [查尔斯的知识库](https://github.com/Charles7c/charles7c.github.io)、 [周一博客](https://github.com/mondaylab/mondaylab-blog)
 
 #### 网上文章
 
@@ -388,6 +387,8 @@ pnpm i
 [VitePress 搭建静态网站并在 github和gitee 部署](https://agangdundan.cn/origin/)
 
 [0-1vitepress](https://mp.weixin.qq.com/s?__biz=Mzg5MDA4NTUyNA==&mid=2247491628&idx=1&sn=eb79e162f954e79aefca15a2e5d59758&chksm=cfe0a9d7f89720c1a84a9e200a5057854aa9a7dbf4785850f80b8a029bcfb0d4fb90d1237c50&mpshare=1&scene=1&srcid=1214dodUlL1Bhnku0Qs4ZgsZ&sharer_shareinfo=48b88e275fcab9160453c44b9399daf7&sharer_shareinfo_first=48b88e275fcab9160453c44b9399daf7&version=4.1.15.6007&platform=win#rd)
+
+🇨🇳
 
 #### 其他
 
