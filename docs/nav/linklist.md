@@ -38,3 +38,24 @@ https://zhuanlan.zhihu.com/p/623303824?utm_id=0
 ppt 模板：https://www.hippter.com/
 
 指南网站：https://zh.wikihow.com
+
+https://www.xue8nav.com/
+
+https://ai-bot.cn/
+
+设计：https://www.seeseed.com/
+
+小呆：https://www.webjike.com
+
+搞设计：https://gaosheji.com/
+
+导航：http://www.86dh.com/
+
+ppt 翻译：https://www.pooban.com/site/
+
+办公人导航：https://www.bgrdh.com/
+
+50 个实用又有趣的宝藏网站，良心推荐，全是神器：https://baijiahao.baidu.com/s?id=1776755517814055017&wfr=spider&for=pc
+
+
+柒夜导航：https://nav.qinight.com/
