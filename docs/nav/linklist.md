@@ -59,3 +59,7 @@ ppt 翻译：https://www.pooban.com/site/
 
 
 柒夜导航：https://nav.qinight.com/
+
+小纸条：http://a.gitcafe.net/
+
+https://www.i3zh.com/29231.html

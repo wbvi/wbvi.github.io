@@ -382,8 +382,26 @@ export const NAV_DATA: NavData[] = [
           desc: '城通网盘',
           link: 'https://www.ctfile.com/'
         },
-
-       
+        {
+          badge: {
+            text: '中',
+            type: 'info',
+          },
+          icon: 'https://www.lanzou.com/favicon.ico',
+          title: '蓝奏云',
+          desc: '蓝奏云',
+          link: 'https://www.lanzou.com/'
+        },
+        {
+          badge: {
+            text: '中',
+            type: 'info',
+          },
+          icon: 'https://www.jianguoyun.com/static/images/logo.png',
+          title: '坚果云',
+          desc: '坚果云',
+          link: ' https://www.jianguoyun.com/'
+        },
       ]
     },
 
