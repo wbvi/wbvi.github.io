@@ -185,7 +185,7 @@ export const NAV_DATA: NavData[] = [
 
   // 笔记
   {
-    title: '笔记文档',
+    title: '文档',
     items: [
       {
         icon: 'https://baiyunshan.flowus.cn/assets/_next/static/media/home-logo.78d948f2.png',
@@ -338,5 +338,53 @@ export const NAV_DATA: NavData[] = [
      
     ]
   },
+    // 网盘
+    {
+      title: '网盘',
+      items: [
+        {
+          badge: {
+            text: '中',
+            type: 'info',
+          },
+          icon: 'https://nd-static.bdstatic.com/m-static/wp-brand/favicon.ico',
+          title: '百度网盘',
+          desc: '百度网盘',
+          link: 'https://pan.baidu.com/'
+        },
+        {
+          badge: {
+            text: '中',
+            type: 'info',
+          },
+          icon: 'https://img.weiyun.com/vipstyle/nr/box/img/favicon.ico?max_age=31536000',
+          title: '腾讯云盘',
+          desc: '腾讯云盘',
+          link: 'https://www.weiyun.com/'
+        },
+        {
+          badge: {
+            text: '中',
+            type: 'info',
+          },
+          icon: 'https://img.weiyun.com/vipstyle/nr/box/img/favicon.ico?max_age=31536000',
+          title: '阿里网盘',
+          desc: '阿里网盘',
+          link: 'https://www.weiyun.com/'
+        },
+        {
+          badge: {
+            text: '中',
+            type: 'info',
+          },
+          icon: 'https://static.ctfile.com/assets/img/favicons/favicon-32x32.png',
+          title: '城通网盘',
+          desc: '城通网盘',
+          link: 'https://www.ctfile.com/'
+        },
+
+       
+      ]
+    },
 
 ]
