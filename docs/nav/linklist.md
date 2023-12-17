@@ -15,6 +15,7 @@
 [文心一言](https://yiyan.baidu.com/)
 [阿里云](https:jd.com)
 
+https://zhuanlan.zhihu.com/p/623303824?utm_id=0
 
 ## 翻译
 
@@ -23,3 +24,17 @@
 ## 导航
 
 [导航](https://www.wenjiangs.com/navigation)
+
+果汁导航：http://www.guozhivip.com/
+
+学霸导航：https://www.xue8nav.com/
+
+产品经理导航：https://www.pmbaobao.com/
+
+创造师傅：https://chuangzaoshi.com/index
+
+设计导航：http://hao.shejidaren.com/
+
+ppt 模板：https://www.hippter.com/
+
+指南网站：https://zh.wikihow.com

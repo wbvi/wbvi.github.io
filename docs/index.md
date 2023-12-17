@@ -30,10 +30,10 @@ hero:
     - theme: brand
       text: 开始
       link: /started
-    # 
-    # - theme: alt
-    #   text: GitHub
-    #   link: https://github.com/Yiov/vitepress-doc
+    
+    - theme: alt
+      text: 归档
+      link: /Archiving/
     # 
     # - theme: sponsor
     #   text: 搭建导航
