@@ -181,7 +181,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://qwerty.liumingye.cn/'
       },
       {
-        icon: '',
+        icon: 'https://www.zgbk.com/images/favicon.ico',
         title: '中国大百科全书',
         badge: {
           text: '中',
@@ -229,7 +229,7 @@ export const NAV_DATA: NavData[] = [
         desc: '为亿万用户提供高效稳定便捷的电子邮件服务',
         link: 'https://www.ventusky.com'
       },
-      //企业邮箱-https://exmail.qq.com
+      //企业邮箱-https://work.weixin.qq.com
       {
         badge: {
           text: '中',
@@ -238,7 +238,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://exmail.qq.com/exmail_logo.ico',
         title: '企业邮箱',
         desc: '企业邮箱',
-        link: 'https://exmail.qq.com'
+        link: 'https://work.weixin.qq.com'
       },
       // foxmail邮箱-https://www.foxmail.com/
       {
@@ -331,7 +331,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.yuque.com'
       },
       {
-        icon: 'https://docs.gtimg.com/home/img/products/icon-doc-ede672.png',
+        icon: 'https://docs.idqqimg.com/tim/docs/desktop/favicon.ico',
         title: '腾讯文档',
         badge: {
           text: '中',
@@ -341,7 +341,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://docs.qq.com'
       },
       {
-        icon: 'https://docs.gtimg.com/home/img/products/icon-smartcanvas-64ee75.png',
+        icon: 'https://as.smgv.cn/from_qbox/favicon.ico',
         title: '石墨文档',
         badge: {
           text: '中',
@@ -351,7 +351,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://shimo.im'
       },
       {
-        icon: 'https://assets.mubu.com/888df75fd4e090ff51bed873e68ba0a2.png',
+        icon: 'https://assets.mubu.com/favicon.ico',
         title: '幕布',
         badge: {
           text: '中',
@@ -552,16 +552,27 @@ export const NAV_DATA: NavData[] = [
         desc: '哔哩哔哩',
         link: 'https://www.bilibili.com/'
       },
-      //哔哩哔哩-https://www.bilibili.com/
+      //西瓜视频-https://www.bilibili.com/
       {
         badge: {
           text: '中',
           type: 'info',
         },
-        icon: 'https://www.bilibili.com/favicon.ico?v=1',
-        title: '哔哩哔哩',
-        desc: '哔哩哔哩',
-        link: 'https://www.bilibili.com/'
+        icon: 'https://sf1-cdn-tos.douyinstatic.com/obj/eden-cn/lpqpflo/ixigua_favicon.ico',
+        title: '西瓜视频',
+        desc: '西瓜视频',
+        link: 'https://www.ixigua.com'
+      },
+      // CCTV-https://tv.cctv.com/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://tv.cctv.com/favicon.ico',
+        title: 'CCTV',
+        desc: 'CCTV',
+        link: 'https://tv.cctv.com/'
       },
     ]
   },
@@ -579,6 +590,40 @@ export const NAV_DATA: NavData[] = [
           title: '京东',
           desc: '京东',
           link: 'https://www.jd.com/'
+        },
+      ]
+    },
+  //地图
+  {
+    title: '地图',
+    items: [
+      //本地测试-https://www.kugou.com
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://map.baidu.com/favicon.ico',
+        title: '百度地图',
+        desc: '百度地图',
+        link: 'https://map.baidu.com'
+      },
+    ]
+  },
+    //资源
+    {
+      title: 'PPT网站',
+      items: [
+        //ppt网站-https://www.1ppt.com/
+        {
+          badge: {
+            text: '中',
+            type: 'info',
+          },
+          icon: 'https://www.1ppt.com/favicon.ico',
+          title: '第一ppt',
+          desc: '第一ppt',
+          link: 'https://www.1ppt.com'
         },
       ]
     },
