@@ -1,43 +1,43 @@
 import type { NavData } from './types'
 
 export const NAV_DATA: NavData[] = [
-    // ai导航
-    {
-      title: 'AI 导航',
-      items: [
-        {
-          icon: '/icons/chatgpt.png',
-          title: 'ChatGPT（最强）',
-          link: 'https://chat.openai.com/chat'
+  // ai导航
+  {
+    title: 'AI 导航',
+    items: [
+      {
+        icon: '/icons/chatgpt.png',
+        title: 'ChatGPT（最强）',
+        link: 'https://chat.openai.com/chat'
+      },
+      {
+        badge: {
+          text: '中',
+          type: 'info',
         },
-        {
-          badge: {
-            text: '中',
-            type: 'info',
-          },
-          icon: 'https://nlp-eb.cdn.bcebos.com/logo/favicon.ico',
-          title: '文心一言',
-          desc: '有用、有趣、有温度',
-          link: 'https://yiyan.baidu.com/'
-        },
-        
-        {
-          icon: 'https://www.notion.so/images/logo-ios.png',
-          title: 'Notion AI（笔记）',
-          link: 'https://www.notion.so'
-        },
-        {
-          icon: 'https://www.midjourney.com/apple-touch-icon.png',
-          title: 'Midjourney（绘画）',
-          link: 'https://www.midjourney.com'
-        },
-        {
-          icon: 'https://global-uploads.webflow.com/59deb588800ae30001ec19c9/5d4891e0e260e3c1bc37b100_beautiful%20ai%20favicon%20%20blue%20square.png',
-          title: 'Beautiful.ai（PPT）',
-          link: 'https://www.beautiful.ai'
-        }
-      ]
-    },
+        icon: 'https://nlp-eb.cdn.bcebos.com/logo/favicon.ico',
+        title: '文心一言',
+        desc: '有用、有趣、有温度',
+        link: 'https://yiyan.baidu.com/'
+      },
+
+      {
+        icon: 'https://www.notion.so/images/logo-ios.png',
+        title: 'Notion AI（笔记）',
+        link: 'https://www.notion.so'
+      },
+      {
+        icon: 'https://www.midjourney.com/apple-touch-icon.png',
+        title: 'Midjourney（绘画）',
+        link: 'https://www.midjourney.com'
+      },
+      {
+        icon: 'https://global-uploads.webflow.com/59deb588800ae30001ec19c9/5d4891e0e260e3c1bc37b100_beautiful%20ai%20favicon%20%20blue%20square.png',
+        title: 'Beautiful.ai（PPT）',
+        link: 'https://www.beautiful.ai'
+      }
+    ]
+  },
   // 常用
   {
     title: '常用',
@@ -192,7 +192,7 @@ export const NAV_DATA: NavData[] = [
       },
     ]
   },
-//邮箱
+  //邮箱
   {
     title: '邮箱',
     items: [
@@ -418,80 +418,80 @@ export const NAV_DATA: NavData[] = [
         desc: '翻译',
         link: 'https://www.deepl.com'
       },
-     
+
     ]
   },
-    // 网盘
-    {
-      title: '网盘',
-      items: [
-        {
-          badge: {
-            text: '中',
-            type: 'info',
-          },
-          icon: 'https://nd-static.bdstatic.com/m-static/wp-brand/favicon.ico',
-          title: '百度网盘',
-          desc: '百度网盘',
-          link: 'https://pan.baidu.com/'
+  // 网盘
+  {
+    title: '网盘',
+    items: [
+      {
+        badge: {
+          text: '中',
+          type: 'info',
         },
-        {
-          badge: {
-            text: '中',
-            type: 'info',
-          },
-          icon: 'https://img.weiyun.com/vipstyle/nr/box/img/favicon.ico?max_age=31536000',
-          title: '腾讯云盘',
-          desc: '腾讯云盘',
-          link: 'https://www.weiyun.com/'
+        icon: 'https://nd-static.bdstatic.com/m-static/wp-brand/favicon.ico',
+        title: '百度网盘',
+        desc: '百度网盘',
+        link: 'https://pan.baidu.com/'
+      },
+      {
+        badge: {
+          text: '中',
+          type: 'info',
         },
-        {
-          badge: {
-            text: '中',
-            type: 'info',
-          },
-          icon: 'https://img.weiyun.com/vipstyle/nr/box/img/favicon.ico?max_age=31536000',
-          title: '阿里网盘',
-          desc: '阿里网盘',
-          link: 'https://www.weiyun.com/'
+        icon: 'https://img.weiyun.com/vipstyle/nr/box/img/favicon.ico?max_age=31536000',
+        title: '腾讯云盘',
+        desc: '腾讯云盘',
+        link: 'https://www.weiyun.com/'
+      },
+      {
+        badge: {
+          text: '中',
+          type: 'info',
         },
-        {
-          badge: {
-            text: '中',
-            type: 'info',
-          },
-          icon: 'https://static.ctfile.com/assets/img/favicons/favicon-32x32.png',
-          title: '城通网盘',
-          desc: '城通网盘',
-          link: 'https://www.ctfile.com/'
+        icon: 'https://img.weiyun.com/vipstyle/nr/box/img/favicon.ico?max_age=31536000',
+        title: '阿里网盘',
+        desc: '阿里网盘',
+        link: 'https://www.weiyun.com/'
+      },
+      {
+        badge: {
+          text: '中',
+          type: 'info',
         },
-        {
-          badge: {
-            text: '中',
-            type: 'info',
-          },
-          icon: 'https://www.lanzou.com/favicon.ico',
-          title: '蓝奏云',
-          desc: '蓝奏云',
-          link: 'https://www.lanzou.com/'
+        icon: 'https://static.ctfile.com/assets/img/favicons/favicon-32x32.png',
+        title: '城通网盘',
+        desc: '城通网盘',
+        link: 'https://www.ctfile.com/'
+      },
+      {
+        badge: {
+          text: '中',
+          type: 'info',
         },
-        {
-          badge: {
-            text: '中',
-            type: 'info',
-          },
-          icon: 'https://www.jianguoyun.com/static/images/logo.png',
-          title: '坚果云',
-          desc: '坚果云',
-          link: ' https://www.jianguoyun.com/'
+        icon: 'https://www.lanzou.com/favicon.ico',
+        title: '蓝奏云',
+        desc: '蓝奏云',
+        link: 'https://www.lanzou.com/'
+      },
+      {
+        badge: {
+          text: '中',
+          type: 'info',
         },
-      ]
-    },
-    //音乐
+        icon: 'https://www.jianguoyun.com/static/images/logo.png',
+        title: '坚果云',
+        desc: '坚果云',
+        link: ' https://www.jianguoyun.com/'
+      },
+    ]
+  },
+  //音乐
   {
     title: '音乐',
     items: [
-    //酷狗音乐-https://www.kugou.com
+      //酷狗音乐-https://www.kugou.com
       {
         badge: {
           text: '中',
@@ -534,6 +534,68 @@ export const NAV_DATA: NavData[] = [
         title: 'qq音乐',
         desc: '音乐,QQ音乐,在线听歌,音乐下载,音乐播放器,音乐网站,MV,巅峰榜,音乐排行榜,翻译歌曲,热门歌曲,经典老歌,无损音乐,无损曲库',
         link: 'https://y.qq.com/'
+      },
+    ]
+  },
+  //视频
+  {
+    title: '视频',
+    items: [
+      //哔哩哔哩-https://www.bilibili.com/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://www.bilibili.com/favicon.ico?v=1',
+        title: '哔哩哔哩',
+        desc: '哔哩哔哩',
+        link: 'https://www.bilibili.com/'
+      },
+      //哔哩哔哩-https://www.bilibili.com/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://www.bilibili.com/favicon.ico?v=1',
+        title: '哔哩哔哩',
+        desc: '哔哩哔哩',
+        link: 'https://www.bilibili.com/'
+      },
+    ]
+  },
+    //购物
+    {
+      title: '购物',
+      items: [
+        //购物-https://www.jd.com/
+        {
+          badge: {
+            text: '中',
+            type: 'info',
+          },
+          icon: 'https://www.jd.com/favicon.ico',
+          title: '京东',
+          desc: '京东',
+          link: 'https://www.jd.com/'
+        },
+      ]
+    },
+  //本地c测试
+  {
+    title: '本地测试',
+    items: [
+      //本地测试-https://www.kugou.com
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: '',
+        title: '本地测试',
+        desc: '本地测试',
+        link: 'http://localhost:5173/'
       },
     ]
   },
