@@ -11,6 +11,17 @@ export const NAV_DATA: NavData[] = [
           link: 'https://chat.openai.com/chat'
         },
         {
+          badge: {
+            text: '中',
+            type: 'info',
+          },
+          icon: 'https://nlp-eb.cdn.bcebos.com/logo/favicon.ico',
+          title: '文心一言',
+          desc: '有用、有趣、有温度',
+          link: 'https://yiyan.baidu.com/'
+        },
+        
+        {
           icon: 'https://www.notion.so/images/logo-ios.png',
           title: 'Notion AI（笔记）',
           link: 'https://www.notion.so'
@@ -178,6 +189,78 @@ export const NAV_DATA: NavData[] = [
         },
         desc: '中国大百科全书',
         link: 'https://www.zgbk.com/'
+      },
+    ]
+  },
+//邮箱
+  {
+    title: '邮箱',
+    items: [
+      // 163邮箱
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://mail.163.com/favicon.ico',
+        title: '163邮箱',
+        desc: '邮件，邮箱，电子邮件，电子邮箱，网易邮箱，163邮箱，免费邮箱，mail，email，超大附件',
+        link: 'https://mail.163.com/'
+      },
+      // 126邮箱-https://mail.126.com/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://mail.163.com/favicon.ico',
+        title: '126邮箱',
+        desc: '邮件，邮箱，电子邮件，电子邮箱，网易邮箱，163邮箱，免费邮箱，mail，email，超大附件',
+        link: 'https://mail.126.com/'
+      },
+      //qq邮箱-https://mail.qq.com
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_96h.png',
+        title: 'qq邮箱',
+        desc: '为亿万用户提供高效稳定便捷的电子邮件服务',
+        link: 'https://www.ventusky.com'
+      },
+      //企业邮箱-https://exmail.qq.com
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://exmail.qq.com/exmail_logo.ico',
+        title: '企业邮箱',
+        desc: '企业邮箱',
+        link: 'https://exmail.qq.com'
+      },
+      // foxmail邮箱-https://www.foxmail.com/
+      {
+        badge: {
+          text: '中',
+          type: 'tip',
+        },
+        icon: 'https://www.foxmail.com/favicon.ico',
+        title: 'foxmail邮箱',
+        desc: 'foxmail邮箱',
+        link: 'https://www.foxmail.com/'
+      },
+      // 阿里邮箱-https://mail.aliyun.com/
+      {
+        icon: 'https://mail.aliyun.com/static/0.2.6/images/favicon.ico',
+        title: '阿里邮箱',
+        badge: {
+          text: '中',
+          type: 'warning',
+        },
+        desc: '阿里邮箱',
+        link: 'https://mail.aliyun.com/'
       },
     ]
   },
@@ -404,5 +487,55 @@ export const NAV_DATA: NavData[] = [
         },
       ]
     },
+    //音乐
+  {
+    title: '音乐',
+    items: [
+    //酷狗音乐-https://www.kugou.com
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://www.kugou.com/root/favicon.ico',
+        title: '酷狗音乐',
+        desc: '酷狗,酷狗音乐,音乐,听书,音频mp3',
+        link: 'https://www.kugou.com'
+      },
+      // 酷我音乐-http://www.kuwo.cn/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'http://www.kuwo.cn/favicon.ico?v=1',
+        title: '酷我音乐',
+        desc: '邮件，邮箱，电子邮件，电子邮箱，网易邮箱，163邮箱，免费邮箱，mail，email，超大附件',
+        link: 'https://mail.126.com/'
+      },
+      //网易云音乐-https://music.163.com
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://s1.music.126.net/style/favicon.ico?v20180823',
+        title: '网易云音乐',
+        desc: '企业邮箱',
+        link: 'https://music.163.com'
+      },
+      //qq音乐-https://y.qq.com/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://y.qq.com/mediastyle/yqq/img/logo.png?max_age=2592000',
+        title: 'qq音乐',
+        desc: '音乐,QQ音乐,在线听歌,音乐下载,音乐播放器,音乐网站,MV,巅峰榜,音乐排行榜,翻译歌曲,热门歌曲,经典老歌,无损音乐,无损曲库',
+        link: 'https://y.qq.com/'
+      },
+    ]
+  },
 
 ]
