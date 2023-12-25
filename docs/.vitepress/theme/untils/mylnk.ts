@@ -638,8 +638,8 @@ export const NAV_DATA: NavData[] = [
           type: 'info',
         },
         icon: 'https://attachment.pooban.com/uploads/allimg/20230729/1-230H91Q4253L.ico',
-        title: '扑奔PPT',
-        desc: '扑奔PPT',
+        title: '扑奔PPT导航',
+        desc: '扑奔PPT导航',
         link: 'https://www.pooban.com'
       },
       // 三顿导航-https://www.sandunppt.com/
