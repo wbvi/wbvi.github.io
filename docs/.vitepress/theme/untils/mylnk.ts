@@ -456,10 +456,10 @@ export const NAV_DATA: NavData[] = [
           text: '中',
           type: 'info',
         },
-        icon: 'https://img.weiyun.com/vipstyle/nr/box/img/favicon.ico?max_age=31536000',
+        icon: 'https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico',
         title: '阿里网盘',
         desc: '阿里网盘',
-        link: 'https://www.weiyun.com/'
+        link: 'https://www.aliyundrive.com/'
       },
       {
         badge: {
