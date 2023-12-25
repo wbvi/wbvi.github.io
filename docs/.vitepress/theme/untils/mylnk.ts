@@ -227,7 +227,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_96h.png',
         title: 'qq邮箱',
         desc: '为亿万用户提供高效稳定便捷的电子邮件服务',
-        link: 'https://www.ventusky.com'
+        link: 'https://mail.qq.com/'
       },
       //企业邮箱-https://work.weixin.qq.com
       {
@@ -409,7 +409,7 @@ export const NAV_DATA: NavData[] = [
           text: '中',
           type: 'info',
         },
-        icon: 'https://fanyi.youdao.com/img/logo.50fdfa99.png',
+        icon: 'https://ydlunacommon-cdn.nosdn.127.net/31cf4b56e6c0b3af668aa079de1a898c.png',
         title: '有道翻译',
         desc: '有道翻译',
         link: 'https://fanyi.youdao.com'
@@ -516,8 +516,8 @@ export const NAV_DATA: NavData[] = [
         },
         icon: 'http://www.kuwo.cn/favicon.ico?v=1',
         title: '酷我音乐',
-        desc: '邮件，邮箱，电子邮件，电子邮箱，网易邮箱，163邮箱，免费邮箱，mail，email，超大附件',
-        link: 'https://mail.126.com/'
+        desc: '酷我音乐件',
+        link: 'http://www.kuwo.cn/'
       },
       //网易云音乐-https://music.163.com
       {
@@ -536,7 +536,7 @@ export const NAV_DATA: NavData[] = [
           text: '中',
           type: 'info',
         },
-        icon: 'https://y.qq.com/mediastyle/yqq/img/logo.png?max_age=2592000',
+        icon: 'https://y.qq.com/favicon.ico?max_age=2592000',
         title: 'qq音乐',
         desc: '音乐,QQ音乐,在线听歌,音乐下载,音乐播放器,音乐网站,MV,巅峰榜,音乐排行榜,翻译歌曲,热门歌曲,经典老歌,无损音乐,无损曲库',
         link: 'https://y.qq.com/'
@@ -582,23 +582,23 @@ export const NAV_DATA: NavData[] = [
       },
     ]
   },
-    //购物
-    {
-      title: '购物',
-      items: [
-        //购物-https://www.jd.com/
-        {
-          badge: {
-            text: '中',
-            type: 'info',
-          },
-          icon: 'https://www.jd.com/favicon.ico',
-          title: '京东',
-          desc: '京东',
-          link: 'https://www.jd.com/'
+  //购物
+  {
+    title: '购物',
+    items: [
+      //购物-https://www.jd.com/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
         },
-      ]
-    },
+        icon: 'https://www.jd.com/favicon.ico',
+        title: '京东',
+        desc: '京东',
+        link: 'https://www.jd.com/'
+      },
+    ]
+  },
   //地图
   {
     title: '地图',
@@ -616,23 +616,69 @@ export const NAV_DATA: NavData[] = [
       },
     ]
   },
-    //资源
-    {
-      title: 'PPT网站',
-      items: [
-        //ppt网站-https://www.1ppt.com/
-        {
-          badge: {
-            text: '中',
-            type: 'info',
-          },
-          icon: 'https://www.1ppt.com/favicon.ico',
-          title: '第一ppt',
-          desc: '第一ppt',
-          link: 'https://www.1ppt.com'
+  //资源
+  {
+    title: 'PPT网站',
+    items: [
+      //ppt网站-https://www.1ppt.com/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
         },
-      ]
-    },
+        icon: 'https://www.1ppt.com/favicon.ico',
+        title: '第一ppt',
+        desc: '第一ppt',
+        link: 'https://www.1ppt.com'
+      },
+      // 扑奔PPT-https://www.pooban.com
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://attachment.pooban.com/uploads/allimg/20230729/1-230H91Q4253L.ico',
+        title: '扑奔PPT',
+        desc: '扑奔PPT',
+        link: 'https://www.pooban.com'
+      },
+      // 三顿导航-https://www.sandunppt.com/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://www.sandunppt.com/apple-touch-icon.png',
+        title: '三顿导航',
+        desc: '三顿导航',
+        link: 'https://www.sandunppt.com/'
+      },
+
+      // PPT设计师导航-http://ppt.yoppt.com/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'http://ppt.yoppt.com/wp-content/uploads/2020/08/favicon.ico',
+        title: 'PPT设计师导航',
+        desc: 'PPT设计师导航',
+        link: 'http://ppt.yoppt.com/'
+      },
+            // PPT设计师导航-https://www.aboutppt.com/
+            {
+              badge: {
+                text: '中',
+                type: 'info',
+              },
+              icon: 'https://www.aboutppt.com/favicon/www.51yuansu.com.png',
+              title: 'AboutPPT 导航',
+              desc: 'AboutPPT 导航',
+              link: 'https://www.aboutppt.com/'
+            },
+      
+    ]
+  },
   //本地c测试
   {
     title: '本地测试',
