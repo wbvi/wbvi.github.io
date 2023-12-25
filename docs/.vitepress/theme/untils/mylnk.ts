@@ -270,93 +270,99 @@ export const NAV_DATA: NavData[] = [
   {
     title: '文档',
     items: [
+      // FlowUS-https://flowus.cn
       {
-        icon: 'https://baiyunshan.flowus.cn/assets/_next/static/media/home-logo.78d948f2.png',
-        title: 'FlowUS',
         badge: {
           text: '中',
           type: 'info',
         },
+        icon: 'https://baiyunshan.flowus.cn/assets/_next/static/media/home-logo.78d948f2.png',
+        title: 'FlowUS',
         desc: '知识管理与协作平台以云端笔记为载体，配合在线文档、知识库、文件夹等多形态功能，为个人和团队提供数字信息管理与协同的一站式工作中心。',
         link: 'https://flowus.cn'
       },
       {
-        icon: 'https://qncdn.aoscdn.com/astro/gitmind/_astro/logo-web.6e63e885.svg',
-        title: 'GitMind',
+        // GitMind-https://gitmind.cn
         badge: {
           text: '中',
           type: 'info',
         },
+        icon: 'https://qncdn.aoscdn.com/astro/gitmind/_astro/logo-web.6e63e885.svg',
+        title: 'GitMind',
         desc: '免费思维导图协作软件，灵感流淌、思想共创，激发思想流动，让智慧自然涌现',
         link: 'https://gitmind.cn'
       },
       {
-        icon: 'https://www.yinxiang.com/new/wp-content/uploads/2019/08/%E7%9F%A9%E5%BD%A2@2x-12.png',
-        title: '印象笔记',
+        // 印象笔记
         badge: {
           text: '中',
           type: 'info',
         },
-        desc: '飞书',
+        icon: 'https://www.yinxiang.com/new/wp-content/uploads/2019/08/%E7%9F%A9%E5%BD%A2@2x-12.png',
+        title: '印象笔记',
+        desc: '印象笔记',
         link: 'https://www.yinxiang.com'
       },
       {
-        icon: 'https://note.youdao.com/_nuxt/img/ynote-logo.d8ea7de.png',
-        title: '有道云笔记',
+        // 有道云笔记-https://note.youdao.com
         badge: {
           text: '中',
           type: 'info',
         },
-        desc: '飞书',
+        icon: 'https://note.youdao.com/_nuxt/img/ynote-logo.d8ea7de.png',
+        title: '有道云笔记',
+        desc: '有道云笔记',
         link: 'https://note.youdao.com'
       },
       {
-        icon: 'https://wcdn.wiz.cn/static/images/wiznotex/grid_cut.svg',
-        title: '为知笔记',
+        // 
         badge: {
           text: '中',
           type: 'info',
         },
+        icon: 'https://wcdn.wiz.cn/static/images/wiznotex/grid_cut.svg',
+        title: '为知笔记',
         desc: '以知识释放创造力,从个人笔记到团队知识库，构建更强大的知识图谱',
         link: 'https://www.wiz.cn'
       },
       {
-        icon: 'https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*IVdnTJqUp6gAAAAAAAAAAAAADvuFAQ/original',
-        title: '语雀',
         badge: {
           text: '中',
           type: 'info',
         },
+        icon: 'https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*IVdnTJqUp6gAAAAAAAAAAAAADvuFAQ/original',
+        title: '语雀',
         desc: '文档与知识库工具,知识构建与分享工具',
         link: 'https://www.yuque.com'
       },
       {
-        icon: 'https://docs.idqqimg.com/tim/docs/desktop/favicon.ico',
-        title: '腾讯文档',
         badge: {
           text: '中',
           type: 'info',
         },
+        icon: 'https://docs.idqqimg.com/tim/docs/desktop/favicon.ico',
+        title: '腾讯文档',
         desc: '文档ppt',
         link: 'https://docs.qq.com'
       },
       {
-        icon: 'https://as.smgv.cn/from_qbox/favicon.ico',
-        title: '石墨文档',
+        // 石墨-https://shimo.im
         badge: {
           text: '中',
           type: 'info',
         },
+        icon: 'https://as.smgv.cn/from_qbox/favicon.ico',
+        title: '石墨文档',
         desc: '面向未来的办公软件,文档实时协同 · 知识沉淀管理 · 数据安全可控',
         link: 'https://shimo.im'
       },
       {
-        icon: 'https://assets.mubu.com/favicon.ico',
-        title: '幕布',
         badge: {
           text: '中',
           type: 'info',
         },
+        icon: 'https://assets.mubu.com/favicon.ico',
+        title: '幕布',
         desc: '极简大纲笔记，一键生成思维导图',
         link: 'https://mubu.com'
       },
