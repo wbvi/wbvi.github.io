@@ -276,18 +276,18 @@ export const NAV_DATA: NavData[] = [
           text: '中',
           type: 'info',
         },
-        icon: 'https://baiyunshan.flowus.cn/assets/_next/static/media/home-logo.78d948f2.png',
+        icon: 'https://baiyunshan.flowus.cn/assets/_next/static/media/favicon.0c45c594.png',
         title: 'FlowUS',
         desc: '知识管理与协作平台以云端笔记为载体，配合在线文档、知识库、文件夹等多形态功能，为个人和团队提供数字信息管理与协同的一站式工作中心。',
         link: 'https://flowus.cn'
       },
       {
-        // GitMind-https://gitmind.cn
+        // 思乎-GitMind-https://gitmind.cn
         badge: {
           text: '中',
           type: 'info',
         },
-        icon: 'https://qncdn.aoscdn.com/astro/gitmind/_astro/logo-web.6e63e885.svg',
+        icon: 'https://qncdn.aoscdn.com/astro/gitmind/_astro/favicon-32@32w.0c16987d.png',
         title: 'GitMind',
         desc: '免费思维导图协作软件，灵感流淌、思想共创，激发思想流动，让智慧自然涌现',
         link: 'https://gitmind.cn'
@@ -309,28 +309,29 @@ export const NAV_DATA: NavData[] = [
           text: '中',
           type: 'info',
         },
-        icon: 'https://note.youdao.com/_nuxt/img/ynote-logo.d8ea7de.png',
+        icon: 'https://note.youdao.com/favicon.ico',
         title: '有道云笔记',
         desc: '有道云笔记',
         link: 'https://note.youdao.com'
       },
       {
-        // 
+        // 为知笔记-
         badge: {
           text: '中',
           type: 'info',
         },
-        icon: 'https://wcdn.wiz.cn/static/images/wiznotex/grid_cut.svg',
+        icon: 'https://wcdn.wiz.cn/favicon.ico',
         title: '为知笔记',
         desc: '以知识释放创造力,从个人笔记到团队知识库，构建更强大的知识图谱',
         link: 'https://www.wiz.cn'
       },
       {
+        // 语雀
         badge: {
           text: '中',
           type: 'info',
         },
-        icon: 'https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*IVdnTJqUp6gAAAAAAAAAAAAADvuFAQ/original',
+        icon: 'https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*vMxOQIh4KBMAAAAAAAAAAAAADvuFAQ/original',
         title: '语雀',
         desc: '文档与知识库工具,知识构建与分享工具',
         link: 'https://www.yuque.com'
@@ -357,6 +358,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://shimo.im'
       },
       {
+        // 幕布
         badge: {
           text: '中',
           type: 'info',
@@ -367,7 +369,8 @@ export const NAV_DATA: NavData[] = [
         link: 'https://mubu.com'
       },
       {
-        icon: 'https://www.processon.com/assets/imgs/logo_small.svg',
+        // 
+        icon: 'https://www.processon.com/public_login/favicon.983368c6.ico',
         title: 'ProcessOn',
         badge: {
           text: '中',
@@ -377,7 +380,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.processon.com'
       },
       {
-        icon: 'https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/dab17a044f2442b5af1b8f8a418c50bd~tplv-jbbdkfciu3-image:0:0.image',
+        icon: 'https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/84a9f036fe2b44f99b899fff4beeb963~tplv-jbbdkfciu3-image:0:0.image',
         title: '飞书',
         badge: {
           text: '中',
@@ -391,7 +394,7 @@ export const NAV_DATA: NavData[] = [
           text: '飞书',
           type: 'info',
         },
-        icon: 'https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/dab17a044f2442b5af1b8f8a418c50bd~tplv-jbbdkfciu3-image:0:0.image',
+        icon: 'https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/84a9f036fe2b44f99b899fff4beeb963~tplv-jbbdkfciu3-image:0:0.image',
         title: '飞书网页',
         desc: '飞书网页版',
         link: 'https://feishu.cn/messenger/'
