@@ -270,6 +270,62 @@ export const NAV_DATA: NavData[] = [
   {
     title: '文档',
     items: [
+      {
+        // 语雀
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*vMxOQIh4KBMAAAAAAAAAAAAADvuFAQ/original',
+        title: '语雀',
+        desc: '文档与知识库工具,知识构建与分享工具',
+        link: 'https://www.yuque.com'
+      },
+      {
+        // 腾讯文档
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://docs.idqqimg.com/tim/docs/desktop/favicon.ico',
+        title: '腾讯文档',
+        desc: '文档ppt',
+        link: 'https://docs.qq.com'
+      },
+
+      {
+        // 企业微信文档- https://doc.weixin.qq.com
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://wwcdn.weixin.qq.com/node/wwnl/wwnl/style/images/independent/favicon/favicon_16h$e1750fed.png',
+        title: '企业微信文档',
+        desc: '企业微信文档',
+        link: 'https://doc.weixin.qq.com'
+      },
+      // 飞书-https://www.feishu.cn/
+      {
+        icon: 'https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/84a9f036fe2b44f99b899fff4beeb963~tplv-jbbdkfciu3-image:0:0.image',
+        title: '飞书',
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        desc: '飞书',
+        link: 'https://www.feishu.cn/'
+      },
+      // 飞书-https://feishu.cn/messenger/
+      {
+        badge: {
+          text: '飞书',
+          type: 'info',
+        },
+        icon: 'https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/84a9f036fe2b44f99b899fff4beeb963~tplv-jbbdkfciu3-image:0:0.image',
+        title: '飞书网页',
+        desc: '飞书网页版',
+        link: 'https://feishu.cn/messenger/'
+      },
       // FlowUS-https://flowus.cn
       {
         badge: {
@@ -325,27 +381,7 @@ export const NAV_DATA: NavData[] = [
         desc: '以知识释放创造力,从个人笔记到团队知识库，构建更强大的知识图谱',
         link: 'https://www.wiz.cn'
       },
-      {
-        // 语雀
-        badge: {
-          text: '中',
-          type: 'info',
-        },
-        icon: 'https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*vMxOQIh4KBMAAAAAAAAAAAAADvuFAQ/original',
-        title: '语雀',
-        desc: '文档与知识库工具,知识构建与分享工具',
-        link: 'https://www.yuque.com'
-      },
-      {
-        badge: {
-          text: '中',
-          type: 'info',
-        },
-        icon: 'https://docs.idqqimg.com/tim/docs/desktop/favicon.ico',
-        title: '腾讯文档',
-        desc: '文档ppt',
-        link: 'https://docs.qq.com'
-      },
+
       {
         // 石墨-https://shimo.im
         badge: {
@@ -379,26 +415,7 @@ export const NAV_DATA: NavData[] = [
         desc: '免费在线流程图思维导图',
         link: 'https://www.processon.com'
       },
-      {
-        icon: 'https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/84a9f036fe2b44f99b899fff4beeb963~tplv-jbbdkfciu3-image:0:0.image',
-        title: '飞书',
-        badge: {
-          text: '中',
-          type: 'info',
-        },
-        desc: '飞书',
-        link: 'https://www.feishu.cn/'
-      },
-      {
-        badge: {
-          text: '飞书',
-          type: 'info',
-        },
-        icon: 'https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/84a9f036fe2b44f99b899fff4beeb963~tplv-jbbdkfciu3-image:0:0.image',
-        title: '飞书网页',
-        desc: '飞书网页版',
-        link: 'https://feishu.cn/messenger/'
-      },
+
     ]
   },
 
@@ -668,18 +685,18 @@ export const NAV_DATA: NavData[] = [
         desc: 'PPT设计师导航',
         link: 'http://ppt.yoppt.com/'
       },
-            // PPT设计师导航-https://www.aboutppt.com/
-            {
-              badge: {
-                text: '中',
-                type: 'info',
-              },
-              icon: 'https://www.aboutppt.com/favicon/www.51yuansu.com.png',
-              title: 'AboutPPT 导航',
-              desc: 'AboutPPT 导航',
-              link: 'https://www.aboutppt.com/'
-            },
-      
+      // PPT设计师导航-https://www.aboutppt.com/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://www.aboutppt.com/favicon/www.51yuansu.com.png',
+        title: 'AboutPPT 导航',
+        desc: 'AboutPPT 导航',
+        link: 'https://www.aboutppt.com/'
+      },
+
     ]
   },
   //本地c测试
