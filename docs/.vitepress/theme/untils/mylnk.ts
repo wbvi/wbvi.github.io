@@ -699,6 +699,23 @@ export const NAV_DATA: NavData[] = [
 
     ]
   },
+    //开发
+    {
+      title: '开发',
+      items: [
+        //代码库-https://g-tgcy8721.coding.net/
+        {
+          badge: {
+            text: '中',
+            type: 'info',
+          },
+          icon: 'https://help-assets.codehub.cn/enterprise/guanwang/favicon.ico',
+          title: 'coding',
+          desc: 'coding',
+          link: 'https://g-tgcy8721.coding.net/'
+        },
+      ]
+    },
   //本地c测试
   {
     title: '本地测试',
