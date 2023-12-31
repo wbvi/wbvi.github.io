@@ -52,6 +52,7 @@ export const NAV_DATA: NavData[] = [
         desc: '百度一下，你就知道',
         link: 'https://www.baidu.com'
       },
+      //必应
       {
         badge: {
           text: '中',
@@ -62,7 +63,7 @@ export const NAV_DATA: NavData[] = [
         desc: '必应可帮助你将理论付诸实践，使得搜索更加方便快捷，从而达到事半功倍的效果。',
         link: 'https://cn.bing.com/'
       },
-
+      //今日头条
       {
         badge: {
           text: '中',
@@ -73,6 +74,7 @@ export const NAV_DATA: NavData[] = [
         desc: '今日头条，头条，头条网，头条新闻，今日头条官网',
         link: 'https://www.toutiao.com'
       },
+      //学习强国
       {
         badge: {
           text: '中',
@@ -83,46 +85,7 @@ export const NAV_DATA: NavData[] = [
         desc: '梦想从学习开始，事业从实践起步。',
         link: 'https://www.xuexi.cn'
       },
-      {
-        icon: 'https://tinypng.com/images/apple-touch-icon.png',
-        title: 'TinyPNG',
-        badge: {
-          text: '中',
-          type: 'tip',
-        },
-        desc: '在线图片压缩工具',
-        link: 'https://tinypng.com'
-      },
-      {
-        icon: 'https://devtool.tech/logo.svg',
-        title: '开发者武器库',
-        badge: {
-          text: '中',
-          type: 'warning',
-        },
-        desc: '开发者武器库，做开发者最专业最好用的专业工具箱',
-        link: 'https://devtool.tech'
-      },
-      {
-        icon: 'https://tool.lu/favicon.ico',
-        title: '在线工具',
-        badge: {
-          text: '中',
-          type: 'danger',
-        },
-        desc: '开发人员的工具箱',
-        link: 'https://tool.lu'
-      },
-      {
-        icon: '/icons/json-cn.ico',
-        title: 'Json 中文网',
-        badge: {
-          text: '请给茂茂点点小星星哦',
-          type: 'info',
-        },
-        desc: 'JSON 在线解析及格式化验证',
-        link: 'https://www.json.cn'
-      }
+
     ]
   },
   // 翻译
@@ -725,6 +688,47 @@ export const NAV_DATA: NavData[] = [
         desc: 'coding',
         link: 'https://g-tgcy8721.coding.net/'
       },
+      //在线图片压缩工具
+      {
+        icon: 'https://tinypng.com/images/apple-touch-icon.png',
+        title: 'TinyPNG',
+        badge: {
+          text: '中',
+          type: 'tip',
+        },
+        desc: '在线图片压缩工具',
+        link: 'https://tinypng.com'
+      },
+      {
+        icon: 'https://devtool.tech/logo.svg',
+        title: '开发者武器库',
+        badge: {
+          text: '中',
+          type: 'warning',
+        },
+        desc: '开发者武器库，做开发者最专业最好用的专业工具箱',
+        link: 'https://devtool.tech'
+      },
+      {
+        icon: 'https://tool.lu/favicon.ico',
+        title: '在线工具',
+        badge: {
+          text: '中',
+          type: 'danger',
+        },
+        desc: '开发人员的工具箱',
+        link: 'https://tool.lu'
+      },
+      {
+        icon: '/icons/json-cn.ico',
+        title: 'Json 中文网',
+        badge: {
+          text: '请给茂茂点点小星星哦',
+          type: 'info',
+        },
+        desc: 'JSON 在线解析及格式化验证',
+        link: 'https://www.json.cn'
+      }
     ]
   },
   //本地c测试
