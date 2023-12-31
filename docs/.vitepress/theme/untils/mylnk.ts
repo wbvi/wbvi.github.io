@@ -125,6 +125,33 @@ export const NAV_DATA: NavData[] = [
       }
     ]
   },
+    // 翻译
+    {
+      title: '翻译',
+      items: [
+        {
+          badge: {
+            text: '中',
+            type: 'info',
+          },
+          icon: 'https://ydlunacommon-cdn.nosdn.127.net/31cf4b56e6c0b3af668aa079de1a898c.png',
+          title: '有道翻译',
+          desc: '有道翻译',
+          link: 'https://fanyi.youdao.com'
+        },
+        {
+          badge: {
+            text: '中',
+            type: 'info',
+          },
+          icon: 'https://static.deepl.com/img/logo/deepl-logo-blue.svg',
+          title: 'deepl',
+          desc: '翻译',
+          link: 'https://www.deepl.com'
+        },
+  
+      ]
+    },
   //图书
   {
     title: '图书',
@@ -420,33 +447,7 @@ export const NAV_DATA: NavData[] = [
   },
 
 
-  // 翻译
-  {
-    title: '翻译',
-    items: [
-      {
-        badge: {
-          text: '中',
-          type: 'info',
-        },
-        icon: 'https://ydlunacommon-cdn.nosdn.127.net/31cf4b56e6c0b3af668aa079de1a898c.png',
-        title: '有道翻译',
-        desc: '有道翻译',
-        link: 'https://fanyi.youdao.com'
-      },
-      {
-        badge: {
-          text: '中',
-          type: 'info',
-        },
-        icon: 'https://static.deepl.com/img/logo/deepl-logo-blue.svg',
-        title: 'deepl',
-        desc: '翻译',
-        link: 'https://www.deepl.com'
-      },
 
-    ]
-  },
   // 网盘
   {
     title: '网盘',
@@ -510,6 +511,17 @@ export const NAV_DATA: NavData[] = [
         title: '坚果云',
         desc: '坚果云',
         link: ' https://www.jianguoyun.com/'
+      },
+      {
+        // 我的群辉
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://enduo.cn5.quickconnect.cn/webman/resources/images/icon_dsm_96.png?v=40438',
+        title: '我的NAS',
+        desc: '我的NAS',
+        link: 'https://enduo.cn5.quickconnect.cn'
       },
     ]
   },
