@@ -125,174 +125,33 @@ export const NAV_DATA: NavData[] = [
       }
     ]
   },
-    // 翻译
-    {
-      title: '翻译',
-      items: [
-        {
-          badge: {
-            text: '中',
-            type: 'info',
-          },
-          icon: 'https://ydlunacommon-cdn.nosdn.127.net/31cf4b56e6c0b3af668aa079de1a898c.png',
-          title: '有道翻译',
-          desc: '有道翻译',
-          link: 'https://fanyi.youdao.com'
-        },
-        {
-          badge: {
-            text: '中',
-            type: 'info',
-          },
-          icon: 'https://static.deepl.com/img/logo/deepl-logo-blue.svg',
-          title: 'deepl',
-          desc: '翻译',
-          link: 'https://www.deepl.com'
-        },
-  
-      ]
-    },
-  //图书
+  // 翻译
   {
-    title: '图书',
+    title: '翻译',
     items: [
       {
         badge: {
           text: '中',
           type: 'info',
         },
-        icon: 'https://www.ageeye.cn/statics/icons/favicon-16x16.png',
-        title: '观沧海',
-        desc: '地图分享知识是我们的核心理念',
-        link: 'https://www.ageeye.cn/'
+        icon: 'https://ydlunacommon-cdn.nosdn.127.net/31cf4b56e6c0b3af668aa079de1a898c.png',
+        title: '有道翻译',
+        desc: '有道翻译',
+        link: 'https://fanyi.youdao.com'
       },
       {
         badge: {
           text: '中',
           type: 'info',
         },
-        icon: 'https://avatar.0skyu.cn/assets/logo.f5999a59.svg',
-        title: '自定义头像',
-        desc: '零域色彩头像',
-        link: 'https://avatar.0skyu.cn/'
+        icon: 'https://static.deepl.com/img/logo/deepl-logo-blue.svg',
+        title: 'deepl',
+        desc: '翻译',
+        link: 'https://www.deepl.com'
       },
 
-      {
-        badge: {
-          text: '中',
-          type: 'info',
-        },
-        icon: 'https://cdnstatic.ventusky.com/images/favicon.ico',
-        title: '风雨气温图',
-        desc: '风雨气温图',
-        link: 'https://www.ventusky.com'
-      },
-      {
-        badge: {
-          text: '中',
-          type: 'info',
-        },
-        icon: 'https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_48h.png',
-        title: '微信读书',
-        desc: '微信读书',
-        link: 'https://weread.qq.com/'
-      },
-      {
-        badge: {
-          text: '中',
-          type: 'tip',
-        },
-        icon: 'https://qwerty.liumingye.cn./favicon.ico',
-        title: 'Qwerty Learner',
-        desc: '打字练习单词',
-        link: 'https://qwerty.liumingye.cn/'
-      },
-      {
-        icon: 'https://www.zgbk.com/images/favicon.ico',
-        title: '中国大百科全书',
-        badge: {
-          text: '中',
-          type: 'warning',
-        },
-        desc: '中国大百科全书',
-        link: 'https://www.zgbk.com/'
-      },
     ]
   },
-  //邮箱
-  {
-    title: '邮箱',
-    items: [
-      // 163邮箱
-      {
-        badge: {
-          text: '中',
-          type: 'info',
-        },
-        icon: 'https://mail.163.com/favicon.ico',
-        title: '163邮箱',
-        desc: '邮件，邮箱，电子邮件，电子邮箱，网易邮箱，163邮箱，免费邮箱，mail，email，超大附件',
-        link: 'https://mail.163.com/'
-      },
-      // 126邮箱-https://mail.126.com/
-      {
-        badge: {
-          text: '中',
-          type: 'info',
-        },
-        icon: 'https://mail.163.com/favicon.ico',
-        title: '126邮箱',
-        desc: '邮件，邮箱，电子邮件，电子邮箱，网易邮箱，163邮箱，免费邮箱，mail，email，超大附件',
-        link: 'https://mail.126.com/'
-      },
-      //qq邮箱-https://mail.qq.com
-      {
-        badge: {
-          text: '中',
-          type: 'info',
-        },
-        icon: 'https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_96h.png',
-        title: 'qq邮箱',
-        desc: '为亿万用户提供高效稳定便捷的电子邮件服务',
-        link: 'https://mail.qq.com/'
-      },
-      //企业邮箱-https://work.weixin.qq.com
-      {
-        badge: {
-          text: '中',
-          type: 'info',
-        },
-        icon: 'https://exmail.qq.com/exmail_logo.ico',
-        title: '企业邮箱',
-        desc: '企业邮箱',
-        link: 'https://work.weixin.qq.com'
-      },
-      // foxmail邮箱-https://www.foxmail.com/
-      {
-        badge: {
-          text: '中',
-          type: 'tip',
-        },
-        icon: 'https://www.foxmail.com/favicon.ico',
-        title: 'foxmail邮箱',
-        desc: 'foxmail邮箱',
-        link: 'https://www.foxmail.com/'
-      },
-      // 阿里邮箱-https://mail.aliyun.com/
-      {
-        icon: 'https://mail.aliyun.com/static/0.2.6/images/favicon.ico',
-        title: '阿里邮箱',
-        badge: {
-          text: '中',
-          type: 'warning',
-        },
-        desc: '阿里邮箱',
-        link: 'https://mail.aliyun.com/'
-      },
-    ]
-  },
-
-
   // 笔记
   {
     title: '文档',
@@ -525,6 +384,146 @@ export const NAV_DATA: NavData[] = [
       },
     ]
   },
+  //图书
+  {
+    title: '图书',
+    items: [
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://www.ageeye.cn/statics/icons/favicon-16x16.png',
+        title: '观沧海',
+        desc: '地图分享知识是我们的核心理念',
+        link: 'https://www.ageeye.cn/'
+      },
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://avatar.0skyu.cn/assets/logo.f5999a59.svg',
+        title: '自定义头像',
+        desc: '零域色彩头像',
+        link: 'https://avatar.0skyu.cn/'
+      },
+
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://cdnstatic.ventusky.com/images/favicon.ico',
+        title: '风雨气温图',
+        desc: '风雨气温图',
+        link: 'https://www.ventusky.com'
+      },
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_48h.png',
+        title: '微信读书',
+        desc: '微信读书',
+        link: 'https://weread.qq.com/'
+      },
+      {
+        badge: {
+          text: '中',
+          type: 'tip',
+        },
+        icon: 'https://qwerty.liumingye.cn./favicon.ico',
+        title: 'Qwerty Learner',
+        desc: '打字练习单词',
+        link: 'https://qwerty.liumingye.cn/'
+      },
+      {
+        icon: 'https://www.zgbk.com/images/favicon.ico',
+        title: '中国大百科全书',
+        badge: {
+          text: '中',
+          type: 'warning',
+        },
+        desc: '中国大百科全书',
+        link: 'https://www.zgbk.com/'
+      },
+    ]
+  },
+  //邮箱
+  {
+    title: '邮箱',
+    items: [
+      // 163邮箱
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://mail.163.com/favicon.ico',
+        title: '163邮箱',
+        desc: '邮件，邮箱，电子邮件，电子邮箱，网易邮箱，163邮箱，免费邮箱，mail，email，超大附件',
+        link: 'https://mail.163.com/'
+      },
+      // 126邮箱-https://mail.126.com/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://mail.163.com/favicon.ico',
+        title: '126邮箱',
+        desc: '邮件，邮箱，电子邮件，电子邮箱，网易邮箱，163邮箱，免费邮箱，mail，email，超大附件',
+        link: 'https://mail.126.com/'
+      },
+      //qq邮箱-https://mail.qq.com
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_96h.png',
+        title: 'qq邮箱',
+        desc: '为亿万用户提供高效稳定便捷的电子邮件服务',
+        link: 'https://mail.qq.com/'
+      },
+      //企业邮箱-https://work.weixin.qq.com
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://exmail.qq.com/exmail_logo.ico',
+        title: '企业邮箱',
+        desc: '企业邮箱',
+        link: 'https://work.weixin.qq.com'
+      },
+      // foxmail邮箱-https://www.foxmail.com/
+      {
+        badge: {
+          text: '中',
+          type: 'tip',
+        },
+        icon: 'https://www.foxmail.com/favicon.ico',
+        title: 'foxmail邮箱',
+        desc: 'foxmail邮箱',
+        link: 'https://www.foxmail.com/'
+      },
+      // 阿里邮箱-https://mail.aliyun.com/
+      {
+        icon: 'https://mail.aliyun.com/static/0.2.6/images/favicon.ico',
+        title: '阿里邮箱',
+        badge: {
+          text: '中',
+          type: 'warning',
+        },
+        desc: '阿里邮箱',
+        link: 'https://mail.aliyun.com/'
+      },
+    ]
+  },
+
   //音乐
   {
     title: '音乐',
@@ -711,23 +710,23 @@ export const NAV_DATA: NavData[] = [
 
     ]
   },
-    //开发
-    {
-      title: '开发',
-      items: [
-        //代码库-https://g-tgcy8721.coding.net/
-        {
-          badge: {
-            text: '中',
-            type: 'info',
-          },
-          icon: 'https://help-assets.codehub.cn/enterprise/guanwang/favicon.ico',
-          title: 'coding',
-          desc: 'coding',
-          link: 'https://g-tgcy8721.coding.net/'
+  //开发
+  {
+    title: '开发',
+    items: [
+      //代码库-https://g-tgcy8721.coding.net/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
         },
-      ]
-    },
+        icon: 'https://help-assets.codehub.cn/enterprise/guanwang/favicon.ico',
+        title: 'coding',
+        desc: 'coding',
+        link: 'https://g-tgcy8721.coding.net/'
+      },
+    ]
+  },
   //本地c测试
   {
     title: '本地测试',
