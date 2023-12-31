@@ -731,11 +731,44 @@ export const NAV_DATA: NavData[] = [
       }
     ]
   },
-  // 工具
+  // 腾讯
   {
-    title: '本地测试',
+    title: '腾讯',
     items: [
-      //本地测试-https://filehelper.weixin.qq.com/
+      //微信文件传输-https://filehelper.weixin.qq.com/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://res.wx.qq.com/t/fed_upload/5b551698-63f4-4f29-b9a2-cc3d6804686b/app-icon-192x192.png',
+        title: '微信文件传输',
+        desc: '微信文件传输',
+        link: 'https://filehelper.weixin.qq.com/'
+      },
+      //腾讯兔小巢-https://txc.qq.com/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://res.wx.qq.com/t/fed_upload/5b551698-63f4-4f29-b9a2-cc3d6804686b/app-icon-192x192.png',
+        title: '腾讯兔小巢',
+        desc: '腾讯兔小巢',
+        link: 'https://filehelper.weixin.qq.com/'
+      },
+      //微信文件传输-https://filehelper.weixin.qq.com/
+      {
+        badge: {
+          text: '中',
+          type: 'info',
+        },
+        icon: 'https://res.wx.qq.com/t/fed_upload/5b551698-63f4-4f29-b9a2-cc3d6804686b/app-icon-192x192.png',
+        title: '微信文件传输',
+        desc: '微信文件传输',
+        link: 'https://filehelper.weixin.qq.com/'
+      },
+      //微信文件传输-https://filehelper.weixin.qq.com/
       {
         badge: {
           text: '中',
